@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    cursor: pointer;
+}
