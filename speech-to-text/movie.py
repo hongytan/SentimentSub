@@ -9,7 +9,7 @@ subs = [((0, 4), 'subs1'),
 
 subtitles = SubtitlesClip(subs, generator)
 
-video = VideoFileClip("/Users/hongtan/Desktop/DSClub_Project/speech-to-text/audio-test-files/Friends Joey's Bad Birthday Gift.mp4")
+video = VideoFileClip("./audio-test-files/Friends Joey's Bad Birthday Gift.mp4")
 result = CompositeVideoClip([video, subtitles.set_pos(('center','bottom'))])
 
 result.write_videofile("output.mp4", fps=video.fps, temp_audiofile="temp-audio.m4a", remove_temp=True, codec="libx264", audio_codec="aac")
