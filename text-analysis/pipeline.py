@@ -6,7 +6,7 @@ colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff0000', 'sadness':'#00
 classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
 
 # Make sure you are in DS_Project directory when running
-srt_file = '/Users/hongtan/Desktop/sentimentsub/audio.srt'
+srt_file = './audio.srt'
 mp4_file = './website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4'
 
 # os.system(f'stable-ts {mp4_file} -o {output_file} --word_level False --fp16 False -y')
@@ -31,7 +31,7 @@ with open(srt_file, 'w') as f:
 # os.system(command)
 
 ff = FFmpeg(
-    inputs={'/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4': None},
+    inputs={'./website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4': None},
     outputs={'output_srt.mp4': f'-vf subtitles={srt_file} -y'}
 )
 
