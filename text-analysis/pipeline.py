@@ -1,15 +1,21 @@
-import whisper
 from transformers import pipeline
-unmasker = pipeline('fill-mask', model='xlm-roberta-base')
-print(unmasker("Hello I'm a <mask> model."))
 
-# w_model = whisper.load_model("base")
-# audio_path = "/Users/hongtan/Desktop/DSClub_Project/speech-to-text/audio-test-files/insane.wav"
-# result = w_model.transcribe(audio_path, fp16=False)
-# text = result["text"]
-# print(text)
+colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff0000', 'sadness':'#00ff00'}
+classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
+# prediction = classifier("Hello World")
 
-# classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
-# prediction = classifier(text)
+# Read and classify each line of dialogue
+with open('/Users/hongtan/Desktop/sentimentsub/audio.srt', 'r') as f:
+    lines = f.readlines()
+    n = len(lines)
+    for i in range(2,n,4):
+        label = classifier(lines[i])[0]['label']
+        color = colors[label]
+        new_line = f'<font color="{color}">' + lines[i] + '</font>\n'
+        lines[i] = new_line
+
+with open('/Users/hongtan/Desktop/sentimentsub/audio.srt', 'w') as f:
+    f.writelines(lines)
+
 
 # print(prediction)
