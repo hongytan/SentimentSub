@@ -5,9 +5,10 @@ colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff0000', 'sadness':'#00
 classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
 # prediction = classifier("Hello World")
 
-output_file = '/Users/hongtan/Desktop/sentimentsub/audio.srt'
-srt_file = '/Users/hongtan/Desktop/sentimentsub/audio.srt'
-mp4_file = '/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4'
+#in sentimentsub directory
+output_file = './audio.srt'
+srt_file = './audio.srt'
+mp4_file = './website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4'
 
 os.system(f'stable-ts {mp4_file} -o {output_file} --word_level False --fp16 False -y')
  
