@@ -5,7 +5,7 @@ from transformers import pipeline
 
 model = whisper.load_model("base")
 
-mp4_file = "/Users/hongtan/Desktop/DSClub_Project/speech-to-text/audio-test-files/Friends Joey's Bad Birthday Gift.mp4"
+mp4_file = "./audio-test-files/Friends Joey's Bad Birthday Gift.mp4"
 result = model.transcribe(mp4_file, fp16=False)
 
 # result2 = model.transcribe(mp4_file, fp16=False)
@@ -25,6 +25,3 @@ print(res)
 # for prediction in predictions:
 #     labels.append(prediction['label'])
 # print(labels)
-
-
-
