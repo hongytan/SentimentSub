@@ -7,21 +7,20 @@ import stable_whisper
 
 def showvideo(request):
 
-    lastvideo = Video.objects.last()
-
-    videofile = lastvideo.videofile
-
     form = VideoForm(request.POST or None, request.FILES or None)
     if form.is_valid():
         form.save()
 
     if request.method == 'POST' and 'upload' in request.POST:
-        colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff0000', 'sadness':'#00ff00'}
+        colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff3333', 'sadness':'#00ff00', 'love':'#ff0000'}
         classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
+
+        lastvideo = Video.objects.last()
+        videofile = lastvideo.videofile
 
         # Make sure you are in DS_Project directory when running
         srt_file = '/Users/hongtan/Desktop/sentimentsub/website/sentsub/audio.srt'
-        mp4_file = '/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4'
+        mp4_file = f'/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/{videofile}'
 
         # os.system(f'stable-ts {mp4_file} -o {output_file} --word_level False --fp16 False -y')
         model = stable_whisper.load_model('base')
@@ -51,7 +50,7 @@ def showvideo(request):
 
         ff.run()
 
-    context= {'videofile': videofile, 'form': form,}
+    context = {'form': form,}
 
     return render(request, 'fileupload/videos.html', context)
 
