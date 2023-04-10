@@ -7,7 +7,7 @@ classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-ba
 
 # Make sure you are in DS_Project directory when running
 srt_file = './audio.srt'
-mp4_file = './website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4'
+mp4_file = '/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4'
 
 # os.system(f'stable-ts {mp4_file} -o {output_file} --word_level False --fp16 False -y')
 model = stable_whisper.load_model('base')
@@ -31,7 +31,7 @@ with open(srt_file, 'w') as f:
 # os.system(command)
 
 ff = FFmpeg(
-    inputs={'./website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4': None},
+    inputs={f'{mp4_file}': None},
     outputs={'output_srt.mp4': f'-vf subtitles={srt_file} -y'}
 )
 
