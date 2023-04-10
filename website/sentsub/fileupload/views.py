@@ -22,6 +22,7 @@ def showvideo(request):
         videofile = lastvideo.videofile
 
         # Make sure you are in DS_Project directory when running
+        # CHANGE THIS (ONLY WORKS FOR ABSOLUTE PATHS)
         srt_file = '/Users/hongtan/Desktop/sentimentsub/website/sentsub/audio.srt'
         mp4_file = f'/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/{videofile}'
 
