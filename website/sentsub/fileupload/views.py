@@ -7,14 +7,17 @@ import stable_whisper
 
 def showvideo(request):
 
+    # Saves the user submitted form
     form = VideoForm(request.POST or None, request.FILES or None)
     if form.is_valid():
         form.save()
 
+    # When the user presses the upload button, this goes into effect
     if request.method == 'POST' and 'upload' in request.POST:
         colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff3333', 'sadness':'#00ff00', 'love':'#ff0000'}
         classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
 
+        # Get the last video in database
         lastvideo = Video.objects.last()
         videofile = lastvideo.videofile
 
@@ -22,6 +25,7 @@ def showvideo(request):
         srt_file = '/Users/hongtan/Desktop/sentimentsub/website/sentsub/audio.srt'
         mp4_file = f'/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/{videofile}'
 
+        # Transcribe the mp4 file into text and outputs a srt file
         # os.system(f'stable-ts {mp4_file} -o {output_file} --word_level False --fp16 False -y')
         model = stable_whisper.load_model('base')
         result = model.transcribe(mp4_file, fp16=False)
@@ -37,17 +41,18 @@ def showvideo(request):
                 new_line = f'<font color="{color}">' + lines[i] + '</font>\n'
                 lines[i] = new_line
 
+        # Write new and colored subtitles into file
         with open(srt_file, 'w') as f:
             f.writelines(lines)
 
         # command = f'ffmpeg -i {mp4_file} -vf subtitles={srt_file} output_srt.mp4 -y'
         # os.system(command)
 
+        # Put subtitles on the video and output the new captioned video
         ff = FFmpeg(
             inputs={f'{mp4_file}': None},
             outputs={'output_srt.mp4': f'-vf subtitles={srt_file} -y'}
         )
-
         ff.run()
 
     context = {'form': form,}
