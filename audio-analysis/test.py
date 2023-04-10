@@ -78,9 +78,9 @@ def load(file):
     x.append(feature)
     return x
 
-with open("DSClub_Project/audio-analysis/mlpclassifier.pkl", 'rb') as file:
+with open("./audio-analysis/mlpclassifier.pkl", 'rb') as file:
     model = pickle.load(file)
 
 # Assume 'X_test' is the new data you want to make predictions on
-predictions = model.predict(load('DSClub_Project/audio-analysis/03-01-03-02-02-01-05.wav'))
+predictions = model.predict(load('./audio-analysis/03-01-03-02-02-01-05.wav'))
 print(predictions)
