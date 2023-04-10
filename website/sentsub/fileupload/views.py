@@ -1,16 +1,22 @@
 from django.shortcuts import render
-from .models import Video
+from .models import Video, CaptionVideo
 from .forms import VideoForm
 from transformers import pipeline
 from ffmpy import FFmpeg
 import stable_whisper
+from django.core.files.base import File
 
 def showvideo(request):
+
+    lastvideo = Video.objects.last()
+    videofile = lastvideo.videofile
 
     # Saves the user submitted form
     form = VideoForm(request.POST or None, request.FILES or None)
     if form.is_valid():
         form.save()
+
+    context = {'form': form, 'videofile': videofile}
 
     # When the user presses the upload button, this goes into effect
     if request.method == 'POST' and 'upload' in request.POST:
@@ -27,7 +33,6 @@ def showvideo(request):
         mp4_file = f'/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/{videofile}'
 
         # Transcribe the mp4 file into text and outputs a srt file
-        # os.system(f'stable-ts {mp4_file} -o {output_file} --word_level False --fp16 False -y')
         model = stable_whisper.load_model('base')
         result = model.transcribe(mp4_file, fp16=False)
         result.to_srt_vtt('audio.srt', word_level=False)
@@ -46,17 +51,12 @@ def showvideo(request):
         with open(srt_file, 'w') as f:
             f.writelines(lines)
 
-        # command = f'ffmpeg -i {mp4_file} -vf subtitles={srt_file} output_srt.mp4 -y'
-        # os.system(command)
-
         # Put subtitles on the video and output the new captioned video
         ff = FFmpeg(
             inputs={f'{mp4_file}': None},
             outputs={'output_srt.mp4': f'-vf subtitles={srt_file} -y'}
         )
         ff.run()
-
-    context = {'form': form,}
 
     return render(request, 'fileupload/videos.html', context)
 
