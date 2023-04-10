@@ -2,12 +2,12 @@ from transformers import pipeline
 from ffmpy import FFmpeg
 import stable_whisper
 
-colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff0000', 'sadness':'#00ff00'}
+colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff0000', 'sadness':'#00ff00', 'love':'#0000ff'}
 classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
 
 # Make sure you are in DS_Project directory when running
 srt_file = './audio.srt'
-mp4_file = '/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4'
+mp4_file = './website/sentsub/media/videos/bee.mp4'
 
 # os.system(f'stable-ts {mp4_file} -o {output_file} --word_level False --fp16 False -y')
 model = stable_whisper.load_model('base')
