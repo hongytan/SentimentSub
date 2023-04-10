@@ -20,7 +20,7 @@ def showvideo(request):
 
     # When the user presses the upload button, this goes into effect
     if request.method == 'POST' and 'upload' in request.POST:
-        colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#ff3333', 'sadness':'#00ff00', 'love':'#ff0000'}
+        colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#FFCCCC', 'sadness':'#00ff00', 'love':'#ff0000'}
         classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
 
         # Get the last video in database
