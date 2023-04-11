@@ -6,9 +6,3 @@ class Video(models.Model):
 
     def __str__(self):
         return self.name + ": " + str(self.videofile)
-
-class CaptionVideo(models.Model):
-    cvideo = models.FileField(upload_to='captions/', null=True)
-
-    def __str__(self):
-        return self.name + ': ' + str(self.cvideo)

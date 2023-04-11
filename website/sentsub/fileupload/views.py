@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Video, CaptionVideo
+from .models import Video
 from .forms import VideoForm
 from transformers import pipeline
 from ffmpy import FFmpeg
