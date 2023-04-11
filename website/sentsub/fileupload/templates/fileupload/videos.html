@@ -15,10 +15,17 @@
             <input type="submit" name='upload' value="Upload"/>
         </form>
 
-        <video width="320" height="240" controls>
+        <!-- <video width="320" height="240" controls>
             <source src="{{ videofile.url }}" type="video/mp4">
         Your browser does not support the video tag.
+        </video> -->
+
+        {% if uploaded_file_url %}
+        <video width="320" height="240" controls>
+            <source src="{{ uploaded_file_url }}" type="video/mp4">
+        Your browser does not support the video tag.
         </video>
+        {% endif %}
 
     </body>
 
