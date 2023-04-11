@@ -24,7 +24,6 @@ def showvideo(request):
         # Get the last video in database
         lastvideo = Video.objects.last()
         videofile = lastvideo.videofile
-        print(videofile)
 
         input_filename = str(videofile).split('/')[-1]
         input_file_path = os.path.join(settings.MEDIA_ROOT, 'videos', input_filename)
