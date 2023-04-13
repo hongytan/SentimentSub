@@ -6,6 +6,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 from pydub import AudioSegment
+import re
+from joblib import load
 
 def extract_feature(file_name, mfcc, chroma, mel):
     with soundfile.SoundFile(file_name) as sound_file:
@@ -48,7 +50,6 @@ observed_emotions = ['happy','sad','angry','fearful', 'disgust']
 
 #DataFlair - Load the data and extract features for each sound 
 
-data_path = './audio-analysis/03-01-03-02-02-01-05.wav'
 
 # def load_data(test_size=0.1):
 #     x,y=[],[]
@@ -68,19 +69,32 @@ data_path = './audio-analysis/03-01-03-02-02-01-05.wav'
 #         index += 1
 #     return train_test_split(np.array(x), y, test_size=test_size, random_state=9)
 
-def load(file):
+def sort_key(file):
+    # Extract the number from the filename using a regular expression
+    match = re.search(r'\d+', file)
+    if match:
+        # Convert the matched number to an integer and return it as the sort key
+        return int(match.group())
+    else:
+        # If no number is found in the filename, return 0 as the sort key
+        return 0
+
+def load_data(data_path):
     x = []
-    #converting stereo audio to mono
-    sound = AudioSegment.from_wav(file)
-    sound = sound.set_channels(1)
-    sound.export(file, format="wav")
-    feature=extract_feature(file, mfcc=True, chroma=True, mel=True)
-    x.append(feature)
+    for file in sorted(glob.iglob(data_path, recursive=True), key=sort_key):
+        file_name=os.path.basename(file)
+        print(file_name)
+        #converting stereo audio to mono
+        sound = AudioSegment.from_wav(file)
+        sound = sound.set_channels(1)
+        sound.export(file, format="wav")
+        feature=extract_feature("output.wav", mfcc=True, chroma=True, mel=True)
+        x.append(feature)
     return x
 
-with open("./audio-analysis/mlpclassifier.pkl", 'rb') as file:
+with open("./audio-analysis/SER.pkl", 'rb') as file:
     model = pickle.load(file)
-
+#model = load('./audio-analysis/SER.joblib')
 # Assume 'X_test' is the new data you want to make predictions on
-predictions = model.predict(load('./audio-analysis/03-01-03-02-02-01-05.wav'))
+predictions = model.predict(load_data('./segmented-audio/*.wav'))
 print(predictions)

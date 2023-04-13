@@ -1,0 +1,36 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 384
+PlayResY: 288
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&Hffffff,&Hffffff,&H0,&H0,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:0.00,0:00:0.48,Default,,0,0,0,,{\1c&HFF00&}You{\r} can't get married.
+Dialogue: 1,0:00:0.48,0:00:0.78,Default,,0,0,0,,You {\1c&HFF00&}can't{\r} get married.
+Dialogue: 2,0:00:0.78,0:00:0.86,Default,,0,0,0,,You can't {\1c&HFF00&}get{\r} married.
+Dialogue: 3,0:00:0.86,0:00:1.32,Default,,0,0,0,,You can't get {\1c&HFF00&}married.{\r}
+Dialogue: 4,0:00:1.92,0:00:2.04,Default,,0,0,0,,{\1c&HFF00&}Why{\r} not?
+Dialogue: 5,0:00:2.04,0:00:2.32,Default,,0,0,0,,Why {\1c&HFF00&}not?{\r}
+Dialogue: 6,0:00:2.88,0:00:3.04,Default,,0,0,0,,{\1c&HFF00&}Black{\r} people can't marry white people.
+Dialogue: 7,0:00:3.04,0:00:3.38,Default,,0,0,0,,Black {\1c&HFF00&}people{\r} can't marry white people.
+Dialogue: 8,0:00:3.38,0:00:3.78,Default,,0,0,0,,Black people {\1c&HFF00&}can't{\r} marry white people.
+Dialogue: 9,0:00:3.78,0:00:4.00,Default,,0,0,0,,Black people can't {\1c&HFF00&}marry{\r} white people.
+Dialogue: 10,0:00:4.00,0:00:4.38,Default,,0,0,0,,Black people can't marry {\1c&HFF00&}white{\r} people.
+Dialogue: 11,0:00:4.38,0:00:4.92,Default,,0,0,0,,Black people can't marry white {\1c&HFF00&}people.{\r}
+Dialogue: 12,0:00:5.36,0:00:5.50,Default,,0,0,0,,{\1c&HFF00&}Hey{\r} now.
+Dialogue: 13,0:00:5.50,0:00:5.76,Default,,0,0,0,,Hey {\1c&HFF00&}now.{\r}
+Dialogue: 14,0:00:6.88,0:00:7.24,Default,,0,0,0,,{\1c&HFF00&}It's{\r} Gordett from Steven Universe!
+Dialogue: 15,0:00:7.24,0:00:7.74,Default,,0,0,0,,It's {\1c&HFF00&}Gordett{\r} from Steven Universe!
+Dialogue: 16,0:00:7.74,0:00:8.12,Default,,0,0,0,,It's Gordett {\1c&HFF00&}from{\r} Steven Universe!
+Dialogue: 17,0:00:8.12,0:00:8.56,Default,,0,0,0,,It's Gordett from {\1c&HFF00&}Steven{\r} Universe!
+Dialogue: 18,0:00:8.56,0:00:9.04,Default,,0,0,0,,It's Gordett from Steven {\1c&HFF00&}Universe!{\r}
+Dialogue: 19,0:00:9.82,0:00:9.96,Default,,0,0,0,,{\1c&HFF00&}Kids,{\r}
+Dialogue: 20,0:00:10.66,0:00:11.04,Default,,0,0,0,,{\1c&HFF00&}don't{\r} be racist.
+Dialogue: 21,0:00:11.04,0:00:11.30,Default,,0,0,0,,don't {\1c&HFF00&}be{\r} racist.
+Dialogue: 22,0:00:11.30,0:00:11.78,Default,,0,0,0,,don't be {\1c&HFF00&}racist.{\r}

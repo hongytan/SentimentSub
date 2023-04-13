@@ -3,7 +3,7 @@ import stable_whisper
 model = stable_whisper.load_model('base')
 # this modified model run just like the original model but accepts additional arguments
 
-videofile = "/Users/hongtan/Desktop/sentimentsub/website/sentsub/media/videos/Friends_Joeys_Bad_Birthday_Gift.mp4"
+videofile = "./audio-analysis/racist.mp4"
 result = model.transcribe(videofile, fp16=False)
 
 
