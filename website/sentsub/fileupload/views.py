@@ -8,35 +8,41 @@ from django.core.files.storage import FileSystemStorage
 import os
 from django.conf import settings
 
-def showvideo(request):
+print("Before classifier")
+classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
+print("After classifier")
 
-    # if request.method == 'POST' and 'upload' in request.POST:
+print("Before model")
+model = stable_whisper.load_model('base')
+print("After model")
+
+
+def showvideo(request):
 
     form = VideoForm(request.POST or None, request.FILES or None)
     if form.is_valid():
         form.save()
 
-    # When the user presses the upload button, this goes into effect
+    # Get the last video uploaded
     if request.method == 'POST' and 'upload' in request.POST:
         colors = {'fear': '#0000ff', 'joy': '#000000', 'anger':'#FFCCCC', 'sadness':'#00ff00', 'love':'#ff0000'}
-        classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
 
-        # Get the last video in database
+        # Get the last video uploaded
         lastvideo = Video.objects.last()
         videofile = lastvideo.videofile
 
+        # Get the file paths
         input_filename = str(videofile).split('/')[-1]
         input_file_path = os.path.join(settings.MEDIA_ROOT, 'videos', input_filename)
         srt_filepath = os.path.join(settings.MEDIA_ROOT, 'captions', 'audio.srt')
         output_file_name = input_filename + '_captioned.mp4'
         output_file_path = os.path.join(settings.MEDIA_ROOT, 'captioned_videos', output_file_name)
 
-        # Transcribe the mp4 file into text and outputs a srt file
-        model = stable_whisper.load_model('base')
+        # Transcribe the audio
         result = model.transcribe(input_file_path, fp16=False)
         result.to_srt_vtt(srt_filepath, word_level=False)
 
-        # Read and classify each line of dialogue
+        # Read the srt file and add color to the lines
         with open(srt_filepath, 'r') as f:
             lines = f.readlines()
             n = len(lines)
@@ -46,24 +52,24 @@ def showvideo(request):
                 new_line = f'<font color="{color}">' + lines[i] + '</font>\n'
                 lines[i] = new_line
 
-        # Write new and colored subtitles into file
+        # Write the new lines to the srt file
         with open(srt_filepath, 'w') as f:
             f.writelines(lines)
 
-        # Put subtitles on the video and output the new captioned video
+        # Add the colored subtitles to the video
         ff = FFmpeg(
             inputs={input_file_path: None},
             outputs={output_file_path: f'-vf subtitles={srt_filepath} -y'}
         )
         ff.run()
 
+        # Save the captioned video to the database
         fs = FileSystemStorage()
         filename = fs.save(output_file_name, open(output_file_path, 'rb'))
         uploaded_file_url = fs.url(filename)
         return render(request, 'fileupload/videos.html', {'form': form, 'uploaded_file_url': uploaded_file_url})
 
+    # When the user presses the delete button, this goes into effect
     return render(request, 'fileupload/videos.html', {'form': form})
-
-# 
 
     
