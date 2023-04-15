@@ -8,9 +8,6 @@ body {
 
 
 body {
-<<<<<<< HEAD
-    background-color: black;
-=======
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,10 +53,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-<<<<<<< HEAD
-    background-color: #45a049;
->>>>>>> fb0e58a75d7a1a561261887d56a4c8db0ea6486d
-=======
     background-color: blue;
->>>>>>> db4a9770cc34ccf41eebd934f83551321bbecf55
 }
