@@ -2,7 +2,7 @@ from pydub import AudioSegment
 import os
 
 # Load audio file
-sound = AudioSegment.from_file("./audio-analysis/racist.mp4", format="mp4")
+sound = AudioSegment.from_file("./audio-analysis/office.mp4", format="mp4")
 sound = sound.set_channels(1)
 sound.export("output.wav", format="wav")
 audio = AudioSegment.from_wav("output.wav")

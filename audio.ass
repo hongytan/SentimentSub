@@ -11,26 +11,478 @@ Style: Default,Arial,24,&Hffffff,&Hffffff,&H0,&H0,0,0,0,0,100,100,0,0,1,1,0,2,10
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
-Dialogue: 0,0:00:0.00,0:00:0.48,Default,,0,0,0,,{\1c&HFF00&}You{\r} can't get married.
-Dialogue: 1,0:00:0.48,0:00:0.78,Default,,0,0,0,,You {\1c&HFF00&}can't{\r} get married.
-Dialogue: 2,0:00:0.78,0:00:0.86,Default,,0,0,0,,You can't {\1c&HFF00&}get{\r} married.
-Dialogue: 3,0:00:0.86,0:00:1.32,Default,,0,0,0,,You can't get {\1c&HFF00&}married.{\r}
-Dialogue: 4,0:00:1.92,0:00:2.04,Default,,0,0,0,,{\1c&HFF00&}Why{\r} not?
-Dialogue: 5,0:00:2.04,0:00:2.32,Default,,0,0,0,,Why {\1c&HFF00&}not?{\r}
-Dialogue: 6,0:00:2.88,0:00:3.04,Default,,0,0,0,,{\1c&HFF00&}Black{\r} people can't marry white people.
-Dialogue: 7,0:00:3.04,0:00:3.38,Default,,0,0,0,,Black {\1c&HFF00&}people{\r} can't marry white people.
-Dialogue: 8,0:00:3.38,0:00:3.78,Default,,0,0,0,,Black people {\1c&HFF00&}can't{\r} marry white people.
-Dialogue: 9,0:00:3.78,0:00:4.00,Default,,0,0,0,,Black people can't {\1c&HFF00&}marry{\r} white people.
-Dialogue: 10,0:00:4.00,0:00:4.38,Default,,0,0,0,,Black people can't marry {\1c&HFF00&}white{\r} people.
-Dialogue: 11,0:00:4.38,0:00:4.92,Default,,0,0,0,,Black people can't marry white {\1c&HFF00&}people.{\r}
-Dialogue: 12,0:00:5.36,0:00:5.50,Default,,0,0,0,,{\1c&HFF00&}Hey{\r} now.
-Dialogue: 13,0:00:5.50,0:00:5.76,Default,,0,0,0,,Hey {\1c&HFF00&}now.{\r}
-Dialogue: 14,0:00:6.88,0:00:7.24,Default,,0,0,0,,{\1c&HFF00&}It's{\r} Gordett from Steven Universe!
-Dialogue: 15,0:00:7.24,0:00:7.74,Default,,0,0,0,,It's {\1c&HFF00&}Gordett{\r} from Steven Universe!
-Dialogue: 16,0:00:7.74,0:00:8.12,Default,,0,0,0,,It's Gordett {\1c&HFF00&}from{\r} Steven Universe!
-Dialogue: 17,0:00:8.12,0:00:8.56,Default,,0,0,0,,It's Gordett from {\1c&HFF00&}Steven{\r} Universe!
-Dialogue: 18,0:00:8.56,0:00:9.04,Default,,0,0,0,,It's Gordett from Steven {\1c&HFF00&}Universe!{\r}
-Dialogue: 19,0:00:9.82,0:00:9.96,Default,,0,0,0,,{\1c&HFF00&}Kids,{\r}
-Dialogue: 20,0:00:10.66,0:00:11.04,Default,,0,0,0,,{\1c&HFF00&}don't{\r} be racist.
-Dialogue: 21,0:00:11.04,0:00:11.30,Default,,0,0,0,,don't {\1c&HFF00&}be{\r} racist.
-Dialogue: 22,0:00:11.30,0:00:11.78,Default,,0,0,0,,don't be {\1c&HFF00&}racist.{\r}
+Dialogue: 0,0:00:0.80,0:00:2.02,Default,,0,0,0,,{\1c&HFF00&}Here's{\r} going to happen.
+Dialogue: 1,0:00:2.02,0:00:2.18,Default,,0,0,0,,Here's {\1c&HFF00&}going{\r} to happen.
+Dialogue: 2,0:00:2.18,0:00:2.32,Default,,0,0,0,,Here's going {\1c&HFF00&}to{\r} happen.
+Dialogue: 3,0:00:2.32,0:00:2.48,Default,,0,0,0,,Here's going to {\1c&HFF00&}happen.{\r}
+Dialogue: 4,0:00:2.76,0:00:2.84,Default,,0,0,0,,{\1c&HFF00&}I{\r} am going to have to fix you.
+Dialogue: 5,0:00:2.84,0:00:2.86,Default,,0,0,0,,I am going to have to fix you.
+Dialogue: 6,0:00:2.86,0:00:2.96,Default,,0,0,0,,I {\1c&HFF00&}am{\r} going to have to fix you.
+Dialogue: 7,0:00:2.96,0:00:3.12,Default,,0,0,0,,I am {\1c&HFF00&}going{\r} to have to fix you.
+Dialogue: 8,0:00:3.12,0:00:3.30,Default,,0,0,0,,I am going {\1c&HFF00&}to{\r} have to fix you.
+Dialogue: 9,0:00:3.30,0:00:3.42,Default,,0,0,0,,I am going to {\1c&HFF00&}have{\r} to fix you.
+Dialogue: 10,0:00:3.42,0:00:3.48,Default,,0,0,0,,I am going to have to fix you.
+Dialogue: 11,0:00:3.48,0:00:3.68,Default,,0,0,0,,I am going to have {\1c&HFF00&}to{\r} fix you.
+Dialogue: 12,0:00:3.68,0:00:4.40,Default,,0,0,0,,I am going to have to {\1c&HFF00&}fix{\r} you.
+Dialogue: 13,0:00:4.40,0:00:4.54,Default,,0,0,0,,I am going to have to fix {\1c&HFF00&}you.{\r}
+Dialogue: 14,0:00:4.98,0:00:5.36,Default,,0,0,0,,{\1c&HFF00&}Manage{\r} you to on a more personal scale,
+Dialogue: 15,0:00:5.36,0:00:5.72,Default,,0,0,0,,Manage {\1c&HFF00&}you{\r} to on a more personal scale,
+Dialogue: 16,0:00:5.72,0:00:6.12,Default,,0,0,0,,Manage you {\1c&HFF00&}to{\r} on a more personal scale,
+Dialogue: 17,0:00:6.12,0:00:6.72,Default,,0,0,0,,Manage you to {\1c&HFF00&}on{\r} a more personal scale,
+Dialogue: 18,0:00:6.72,0:00:6.82,Default,,0,0,0,,Manage you to on {\1c&HFF00&}a{\r} more personal scale,
+Dialogue: 19,0:00:6.82,0:00:7.02,Default,,0,0,0,,Manage you to on a {\1c&HFF00&}more{\r} personal scale,
+Dialogue: 20,0:00:7.02,0:00:7.68,Default,,0,0,0,,Manage you to on a more {\1c&HFF00&}personal{\r} scale,
+Dialogue: 21,0:00:7.68,0:00:8.70,Default,,0,0,0,,Manage you to on a more personal {\1c&HFF00&}scale,{\r}
+Dialogue: 22,0:00:9.44,0:00:9.66,Default,,0,0,0,,{\1c&HFF00&}a{\r} more micro form of management.
+Dialogue: 23,0:00:9.66,0:00:10.22,Default,,0,0,0,,a {\1c&HFF00&}more{\r} micro form of management.
+Dialogue: 24,0:00:10.22,0:00:10.72,Default,,0,0,0,,a more {\1c&HFF00&}micro{\r} form of management.
+Dialogue: 25,0:00:10.72,0:00:11.22,Default,,0,0,0,,a more micro {\1c&HFF00&}form{\r} of management.
+Dialogue: 26,0:00:11.22,0:00:11.42,Default,,0,0,0,,a more micro form {\1c&HFF00&}of{\r} management.
+Dialogue: 27,0:00:11.42,0:00:11.84,Default,,0,0,0,,a more micro form of {\1c&HFF00&}management.{\r}
+Dialogue: 28,0:00:12.18,0:00:12.28,Default,,0,0,0,,{\1c&HFF00&}Jim,{\r} what is that called?
+Dialogue: 29,0:00:12.28,0:00:12.40,Default,,0,0,0,,Jim, what is that called?
+Dialogue: 30,0:00:12.40,0:00:12.44,Default,,0,0,0,,Jim, {\1c&HFF00&}what{\r} is that called?
+Dialogue: 31,0:00:12.44,0:00:12.56,Default,,0,0,0,,Jim, what {\1c&HFF00&}is{\r} that called?
+Dialogue: 32,0:00:12.56,0:00:12.64,Default,,0,0,0,,Jim, what is {\1c&HFF00&}that{\r} called?
+Dialogue: 33,0:00:12.64,0:00:12.66,Default,,0,0,0,,Jim, what is that called?
+Dialogue: 34,0:00:12.66,0:00:12.82,Default,,0,0,0,,Jim, what is that {\1c&HFF00&}called?{\r}
+Dialogue: 35,0:00:13.26,0:00:13.40,Default,,0,0,0,,{\1c&HFF00&}Micro{\r}-Jimmin?
+Dialogue: 36,0:00:13.40,0:00:13.68,Default,,0,0,0,,Micro{\1c&HFF00&}-Jimmin?{\r}
+Dialogue: 37,0:00:14.08,0:00:14.20,Default,,0,0,0,,{\1c&HFF00&}Boom.{\r}
+Dialogue: 38,0:00:14.52,0:00:14.64,Default,,0,0,0,,{\1c&HFF00&}Yes.{\r}
+Dialogue: 39,0:00:15.06,0:00:15.18,Default,,0,0,0,,{\1c&HFF00&}Now{\r} Jim is going to be the client.
+Dialogue: 40,0:00:15.18,0:00:15.42,Default,,0,0,0,,Now {\1c&HFF00&}Jim{\r} is going to be the client.
+Dialogue: 41,0:00:15.42,0:00:15.88,Default,,0,0,0,,Now Jim {\1c&HFF00&}is{\r} going to be the client.
+Dialogue: 42,0:00:15.88,0:00:16.00,Default,,0,0,0,,Now Jim is {\1c&HFF00&}going{\r} to be the client.
+Dialogue: 43,0:00:16.00,0:00:16.12,Default,,0,0,0,,Now Jim is going {\1c&HFF00&}to{\r} be the client.
+Dialogue: 44,0:00:16.12,0:00:16.18,Default,,0,0,0,,Now Jim is going to {\1c&HFF00&}be{\r} the client.
+Dialogue: 45,0:00:16.18,0:00:16.26,Default,,0,0,0,,Now Jim is going to be {\1c&HFF00&}the{\r} client.
+Dialogue: 46,0:00:16.26,0:00:16.38,Default,,0,0,0,,Now Jim is going to be the client.
+Dialogue: 47,0:00:16.38,0:00:16.64,Default,,0,0,0,,Now Jim is going to be the {\1c&HFF00&}client.{\r}
+Dialogue: 48,0:00:17.26,0:00:17.46,Default,,0,0,0,,{\1c&HFF00&}Dwight,{\r} you're going to have to sell to him
+Dialogue: 49,0:00:17.46,0:00:17.56,Default,,0,0,0,,Dwight, you're going to have to sell to him
+Dialogue: 50,0:00:17.56,0:00:17.70,Default,,0,0,0,,Dwight, {\1c&HFF00&}you're{\r} going to have to sell to him
+Dialogue: 51,0:00:17.70,0:00:17.76,Default,,0,0,0,,Dwight, you're going to have to sell to him
+Dialogue: 52,0:00:17.76,0:00:17.88,Default,,0,0,0,,Dwight, you're {\1c&HFF00&}going{\r} to have to sell to him
+Dialogue: 53,0:00:17.88,0:00:18.04,Default,,0,0,0,,Dwight, you're going {\1c&HFF00&}to{\r} have to sell to him
+Dialogue: 54,0:00:18.04,0:00:18.14,Default,,0,0,0,,Dwight, you're going to {\1c&HFF00&}have{\r} to sell to him
+Dialogue: 55,0:00:18.14,0:00:18.28,Default,,0,0,0,,Dwight, you're going to have {\1c&HFF00&}to{\r} sell to him
+Dialogue: 56,0:00:18.28,0:00:18.58,Default,,0,0,0,,Dwight, you're going to have to {\1c&HFF00&}sell{\r} to him
+Dialogue: 57,0:00:18.58,0:00:18.68,Default,,0,0,0,,Dwight, you're going to have to sell {\1c&HFF00&}to{\r} him
+Dialogue: 58,0:00:18.68,0:00:18.82,Default,,0,0,0,,Dwight, you're going to have to sell to him
+Dialogue: 59,0:00:18.82,0:00:19.12,Default,,0,0,0,,Dwight, you're going to have to sell to {\1c&HFF00&}him{\r}
+Dialogue: 60,0:00:19.58,0:00:19.74,Default,,0,0,0,,{\1c&HFF00&}without{\r} being aggressive, hostile or difficult.
+Dialogue: 61,0:00:19.74,0:00:20.26,Default,,0,0,0,,without {\1c&HFF00&}being{\r} aggressive, hostile or difficult.
+Dialogue: 62,0:00:20.26,0:00:20.98,Default,,0,0,0,,without being {\1c&HFF00&}aggressive,{\r} hostile or difficult.
+Dialogue: 63,0:00:20.98,0:00:21.26,Default,,0,0,0,,without being aggressive, hostile or difficult.
+Dialogue: 64,0:00:21.26,0:00:21.56,Default,,0,0,0,,without being aggressive, {\1c&HFF00&}hostile{\r} or difficult.
+Dialogue: 65,0:00:21.56,0:00:22.18,Default,,0,0,0,,without being aggressive, hostile {\1c&HFF00&}or{\r} difficult.
+Dialogue: 66,0:00:22.18,0:00:22.38,Default,,0,0,0,,without being aggressive, hostile or {\1c&HFF00&}difficult.{\r}
+Dialogue: 67,0:00:23.24,0:00:23.42,Default,,0,0,0,,{\1c&HFF00&}Let's{\r} go.
+Dialogue: 68,0:00:23.42,0:00:23.56,Default,,0,0,0,,Let's {\1c&HFF00&}go.{\r}
+Dialogue: 69,0:00:23.92,0:00:24.04,Default,,0,0,0,,{\1c&HFF00&}All{\r} right, fine.
+Dialogue: 70,0:00:24.04,0:00:24.14,Default,,0,0,0,,All {\1c&HFF00&}right,{\r} fine.
+Dialogue: 71,0:00:24.14,0:00:24.26,Default,,0,0,0,,All right, fine.
+Dialogue: 72,0:00:24.26,0:00:24.38,Default,,0,0,0,,All right, {\1c&HFF00&}fine.{\r}
+Dialogue: 73,0:00:24.74,0:00:26.58,Default,,0,0,0,,{\1c&HFF00&}Ring,{\r}
+Dialogue: 74,0:00:27.16,0:00:27.26,Default,,0,0,0,,{\1c&HFF00&}ring.{\r}
+Dialogue: 75,0:00:28.62,0:00:28.76,Default,,0,0,0,,{\1c&HFF00&}Hello.{\r}
+Dialogue: 76,0:00:29.16,0:00:29.40,Default,,0,0,0,,{\1c&HFF00&}Hello,{\r} this is Dwight Shrut from the Dundermiffland Paper Company.
+Dialogue: 77,0:00:29.40,0:00:29.52,Default,,0,0,0,,Hello, this is Dwight Shrut from the Dundermiffland Paper Company.
+Dialogue: 78,0:00:29.52,0:00:29.56,Default,,0,0,0,,Hello, {\1c&HFF00&}this{\r} is Dwight Shrut from the Dundermiffland Paper Company.
+Dialogue: 79,0:00:29.56,0:00:29.70,Default,,0,0,0,,Hello, this {\1c&HFF00&}is{\r} Dwight Shrut from the Dundermiffland Paper Company.
+Dialogue: 80,0:00:29.70,0:00:29.94,Default,,0,0,0,,Hello, this is {\1c&HFF00&}Dwight{\r} Shrut from the Dundermiffland Paper Company.
+Dialogue: 81,0:00:29.94,0:00:29.96,Default,,0,0,0,,Hello, this is Dwight Shrut from the Dundermiffland Paper Company.
+Dialogue: 82,0:00:29.96,0:00:30.18,Default,,0,0,0,,Hello, this is Dwight {\1c&HFF00&}Shrut{\r} from the Dundermiffland Paper Company.
+Dialogue: 83,0:00:30.18,0:00:30.44,Default,,0,0,0,,Hello, this is Dwight Shrut {\1c&HFF00&}from{\r} the Dundermiffland Paper Company.
+Dialogue: 84,0:00:30.44,0:00:30.60,Default,,0,0,0,,Hello, this is Dwight Shrut from {\1c&HFF00&}the{\r} Dundermiffland Paper Company.
+Dialogue: 85,0:00:30.60,0:00:31.06,Default,,0,0,0,,Hello, this is Dwight Shrut from the {\1c&HFF00&}Dundermiffland{\r} Paper Company.
+Dialogue: 86,0:00:31.06,0:00:31.28,Default,,0,0,0,,Hello, this is Dwight Shrut from the Dundermiffland {\1c&HFF00&}Paper{\r} Company.
+Dialogue: 87,0:00:31.28,0:00:31.60,Default,,0,0,0,,Hello, this is Dwight Shrut from the Dundermiffland Paper {\1c&HFF00&}Company.{\r}
+Dialogue: 88,0:00:32.04,0:00:32.20,Default,,0,0,0,,{\1c&HFF00&}Well,{\r} that's great because I need paper.
+Dialogue: 89,0:00:32.20,0:00:32.22,Default,,0,0,0,,Well, that's great because I need paper.
+Dialogue: 90,0:00:32.22,0:00:32.46,Default,,0,0,0,,Well, {\1c&HFF00&}that's{\r} great because I need paper.
+Dialogue: 91,0:00:32.46,0:00:32.60,Default,,0,0,0,,Well, that's {\1c&HFF00&}great{\r} because I need paper.
+Dialogue: 92,0:00:32.60,0:00:32.82,Default,,0,0,0,,Well, that's great {\1c&HFF00&}because{\r} I need paper.
+Dialogue: 93,0:00:32.82,0:00:32.94,Default,,0,0,0,,Well, that's great because {\1c&HFF00&}I{\r} need paper.
+Dialogue: 94,0:00:32.94,0:00:33.02,Default,,0,0,0,,Well, that's great because I {\1c&HFF00&}need{\r} paper.
+Dialogue: 95,0:00:33.02,0:00:33.32,Default,,0,0,0,,Well, that's great because I need {\1c&HFF00&}paper.{\r}
+Dialogue: 96,0:00:34.16,0:00:34.46,Default,,0,0,0,,{\1c&HFF00&}Excellent{\r} that you are in luck because we are having a limited time offer only on everything.
+Dialogue: 97,0:00:34.46,0:00:34.66,Default,,0,0,0,,Excellent {\1c&HFF00&}that{\r} you are in luck because we are having a limited time offer only on everything.
+Dialogue: 98,0:00:34.66,0:00:34.76,Default,,0,0,0,,Excellent that {\1c&HFF00&}you{\r} are in luck because we are having a limited time offer only on everything.
+Dialogue: 99,0:00:34.76,0:00:34.86,Default,,0,0,0,,Excellent that you {\1c&HFF00&}are{\r} in luck because we are having a limited time offer only on everything.
+Dialogue: 100,0:00:34.86,0:00:34.92,Default,,0,0,0,,Excellent that you are {\1c&HFF00&}in{\r} luck because we are having a limited time offer only on everything.
+Dialogue: 101,0:00:34.92,0:00:35.06,Default,,0,0,0,,Excellent that you are in {\1c&HFF00&}luck{\r} because we are having a limited time offer only on everything.
+Dialogue: 102,0:00:35.06,0:00:35.40,Default,,0,0,0,,Excellent that you are in luck {\1c&HFF00&}because{\r} we are having a limited time offer only on everything.
+Dialogue: 103,0:00:35.40,0:00:35.58,Default,,0,0,0,,Excellent that you are in luck because {\1c&HFF00&}we{\r} are having a limited time offer only on everything.
+Dialogue: 104,0:00:35.58,0:00:35.68,Default,,0,0,0,,Excellent that you are in luck because we {\1c&HFF00&}are{\r} having a limited time offer only on everything.
+Dialogue: 105,0:00:35.68,0:00:35.96,Default,,0,0,0,,Excellent that you are in luck because we are {\1c&HFF00&}having{\r} a limited time offer only on everything.
+Dialogue: 106,0:00:35.96,0:00:36.20,Default,,0,0,0,,Excellent that you are in luck because we are having {\1c&HFF00&}a{\r} limited time offer only on everything.
+Dialogue: 107,0:00:36.20,0:00:36.46,Default,,0,0,0,,Excellent that you are in luck because we are having a {\1c&HFF00&}limited{\r} time offer only on everything.
+Dialogue: 108,0:00:36.46,0:00:36.72,Default,,0,0,0,,Excellent that you are in luck because we are having a limited {\1c&HFF00&}time{\r} offer only on everything.
+Dialogue: 109,0:00:36.72,0:00:37.06,Default,,0,0,0,,Excellent that you are in luck because we are having a limited time {\1c&HFF00&}offer{\r} only on everything.
+Dialogue: 110,0:00:37.06,0:00:37.52,Default,,0,0,0,,Excellent that you are in luck because we are having a limited time offer {\1c&HFF00&}only{\r} on everything.
+Dialogue: 111,0:00:37.52,0:00:37.74,Default,,0,0,0,,Excellent that you are in luck because we are having a limited time offer only {\1c&HFF00&}on{\r} everything.
+Dialogue: 112,0:00:37.74,0:00:38.40,Default,,0,0,0,,Excellent that you are in luck because we are having a limited time offer only on {\1c&HFF00&}everything.{\r}
+Dialogue: 113,0:00:38.82,0:00:38.96,Default,,0,0,0,,{\1c&HFF00&}Wow,{\r} this is my lucky day.
+Dialogue: 114,0:00:38.96,0:00:38.98,Default,,0,0,0,,Wow, this is my lucky day.
+Dialogue: 115,0:00:38.98,0:00:39.14,Default,,0,0,0,,Wow, {\1c&HFF00&}this{\r} is my lucky day.
+Dialogue: 116,0:00:39.14,0:00:39.28,Default,,0,0,0,,Wow, this {\1c&HFF00&}is{\r} my lucky day.
+Dialogue: 117,0:00:39.28,0:00:39.44,Default,,0,0,0,,Wow, this is {\1c&HFF00&}my{\r} lucky day.
+Dialogue: 118,0:00:39.44,0:00:39.70,Default,,0,0,0,,Wow, this is my {\1c&HFF00&}lucky{\r} day.
+Dialogue: 119,0:00:39.70,0:00:39.94,Default,,0,0,0,,Wow, this is my lucky {\1c&HFF00&}day.{\r}
+Dialogue: 120,0:00:40.08,0:00:40.28,Default,,0,0,0,,{\1c&HFF00&}What{\r} is your name, sir?
+Dialogue: 121,0:00:40.28,0:00:41.20,Default,,0,0,0,,What {\1c&HFF00&}is{\r} your name, sir?
+Dialogue: 122,0:00:41.20,0:00:41.34,Default,,0,0,0,,What is {\1c&HFF00&}your{\r} name, sir?
+Dialogue: 123,0:00:41.34,0:00:41.50,Default,,0,0,0,,What is your {\1c&HFF00&}name,{\r} sir?
+Dialogue: 124,0:00:41.50,0:00:41.58,Default,,0,0,0,,What is your name, sir?
+Dialogue: 125,0:00:41.58,0:00:41.80,Default,,0,0,0,,What is your name, {\1c&HFF00&}sir?{\r}
+Dialogue: 126,0:00:42.28,0:00:42.42,Default,,0,0,0,,{\1c&HFF00&}I{\r} am Bill Butlerker.
+Dialogue: 127,0:00:42.42,0:00:42.58,Default,,0,0,0,,I {\1c&HFF00&}am{\r} Bill Butlerker.
+Dialogue: 128,0:00:42.58,0:00:42.74,Default,,0,0,0,,I am {\1c&HFF00&}Bill{\r} Butlerker.
+Dialogue: 129,0:00:42.74,0:00:43.18,Default,,0,0,0,,I am Bill {\1c&HFF00&}Butlerker.{\r}
+Dialogue: 130,0:00:44.22,0:00:45.18,Default,,0,0,0,,{\1c&HFF00&}Really,{\r} that's your real name?
+Dialogue: 131,0:00:45.18,0:00:45.26,Default,,0,0,0,,Really, that's your real name?
+Dialogue: 132,0:00:45.26,0:00:45.42,Default,,0,0,0,,Really, {\1c&HFF00&}that's{\r} your real name?
+Dialogue: 133,0:00:45.42,0:00:45.50,Default,,0,0,0,,Really, that's {\1c&HFF00&}your{\r} real name?
+Dialogue: 134,0:00:45.50,0:00:45.68,Default,,0,0,0,,Really, that's your {\1c&HFF00&}real{\r} name?
+Dialogue: 135,0:00:45.68,0:00:45.88,Default,,0,0,0,,Really, that's your real {\1c&HFF00&}name?{\r}
+Dialogue: 136,0:00:46.80,0:00:47.02,Default,,0,0,0,,{\1c&HFF00&}How{\r} dare you?
+Dialogue: 137,0:00:47.02,0:00:47.46,Default,,0,0,0,,How {\1c&HFF00&}dare{\r} you?
+Dialogue: 138,0:00:47.46,0:00:47.82,Default,,0,0,0,,How dare {\1c&HFF00&}you?{\r}
+Dialogue: 139,0:00:48.68,0:00:48.86,Default,,0,0,0,,{\1c&HFF00&}My{\r} family built this country,
+Dialogue: 140,0:00:48.86,0:00:49.16,Default,,0,0,0,,My {\1c&HFF00&}family{\r} built this country,
+Dialogue: 141,0:00:49.16,0:00:49.58,Default,,0,0,0,,My family {\1c&HFF00&}built{\r} this country,
+Dialogue: 142,0:00:49.58,0:00:49.84,Default,,0,0,0,,My family built {\1c&HFF00&}this{\r} country,
+Dialogue: 143,0:00:49.84,0:00:50.24,Default,,0,0,0,,My family built this {\1c&HFF00&}country,{\r}
+Dialogue: 144,0:00:50.32,0:00:50.48,Default,,0,0,0,,{\1c&HFF00&}by{\r} the way.
+Dialogue: 145,0:00:50.48,0:00:50.60,Default,,0,0,0,,by {\1c&HFF00&}the{\r} way.
+Dialogue: 146,0:00:50.60,0:00:50.76,Default,,0,0,0,,by the {\1c&HFF00&}way.{\r}
+Dialogue: 147,0:00:50.90,0:00:50.92,Default,,0,0,0,,{\1c&HFF00&}Thank{\r} you, respectful, Dwight.
+Dialogue: 148,0:00:50.92,0:00:50.98,Default,,0,0,0,,Thank {\1c&HFF00&}you,{\r} respectful, Dwight.
+Dialogue: 149,0:00:50.98,0:00:51.08,Default,,0,0,0,,Thank you, respectful, Dwight.
+Dialogue: 150,0:00:51.08,0:00:51.46,Default,,0,0,0,,Thank you, {\1c&HFF00&}respectful,{\r} Dwight.
+Dialogue: 151,0:00:51.46,0:00:51.56,Default,,0,0,0,,Thank you, respectful, Dwight.
+Dialogue: 152,0:00:51.56,0:00:51.74,Default,,0,0,0,,Thank you, respectful, {\1c&HFF00&}Dwight.{\r}
+Dialogue: 153,0:00:51.92,0:00:52.06,Default,,0,0,0,,{\1c&HFF00&}Please.{\r}
+Dialogue: 154,0:00:52.20,0:00:52.40,Default,,0,0,0,,{\1c&HFF00&}Yes,{\r} Michael.
+Dialogue: 155,0:00:52.40,0:00:52.54,Default,,0,0,0,,Yes, Michael.
+Dialogue: 156,0:00:52.54,0:00:52.76,Default,,0,0,0,,Yes, {\1c&HFF00&}Michael.{\r}
+Dialogue: 157,0:00:53.00,0:00:53.04,Default,,0,0,0,,{\1c&HFF00&}Did{\r} you hold on one second?
+Dialogue: 158,0:00:53.04,0:00:53.10,Default,,0,0,0,,Did {\1c&HFF00&}you{\r} hold on one second?
+Dialogue: 159,0:00:53.10,0:00:53.22,Default,,0,0,0,,Did you {\1c&HFF00&}hold{\r} on one second?
+Dialogue: 160,0:00:53.22,0:00:53.30,Default,,0,0,0,,Did you hold {\1c&HFF00&}on{\r} one second?
+Dialogue: 161,0:00:53.30,0:00:53.40,Default,,0,0,0,,Did you hold on {\1c&HFF00&}one{\r} second?
+Dialogue: 162,0:00:53.40,0:00:53.54,Default,,0,0,0,,Did you hold on one {\1c&HFF00&}second?{\r}
+Dialogue: 163,0:00:53.68,0:00:53.76,Default,,0,0,0,,{\1c&HFF00&}That's{\r} my other one.
+Dialogue: 164,0:00:53.76,0:00:53.86,Default,,0,0,0,,That's {\1c&HFF00&}my{\r} other one.
+Dialogue: 165,0:00:53.86,0:00:54.00,Default,,0,0,0,,That's my {\1c&HFF00&}other{\r} one.
+Dialogue: 166,0:00:54.00,0:00:54.18,Default,,0,0,0,,That's my other {\1c&HFF00&}one.{\r}
+Dialogue: 167,0:00:54.38,0:00:54.66,Default,,0,0,0,,{\1c&HFF00&}What?{\r}
+Dialogue: 168,0:00:54.94,0:00:55.12,Default,,0,0,0,,{\1c&HFF00&}No,{\r} but I...
+Dialogue: 169,0:00:55.12,0:00:55.28,Default,,0,0,0,,No, but I...
+Dialogue: 170,0:00:55.28,0:00:55.36,Default,,0,0,0,,No, {\1c&HFF00&}but{\r} I...
+Dialogue: 171,0:00:55.36,0:00:55.80,Default,,0,0,0,,No, but {\1c&HFF00&}I...{\r}
+Dialogue: 172,0:00:55.80,0:00:56.02,Default,,0,0,0,,{\1c&HFF00&}Hello?{\r}
+Dialogue: 173,0:00:56.74,0:00:57.32,Default,,0,0,0,,{\1c&HFF00&}Yeah.{\r}
+Dialogue: 174,0:00:57.76,0:00:58.90,Default,,0,0,0,,{\1c&HFF00&}I'm{\r} just not a phone with this stupid salesman.
+Dialogue: 175,0:00:58.90,0:00:58.98,Default,,0,0,0,,I'm {\1c&HFF00&}just{\r} not a phone with this stupid salesman.
+Dialogue: 176,0:00:58.98,0:00:59.08,Default,,0,0,0,,I'm just {\1c&HFF00&}not{\r} a phone with this stupid salesman.
+Dialogue: 177,0:00:59.08,0:00:59.18,Default,,0,0,0,,I'm just not {\1c&HFF00&}a{\r} phone with this stupid salesman.
+Dialogue: 178,0:00:59.18,0:00:59.30,Default,,0,0,0,,I'm just not a {\1c&HFF00&}phone{\r} with this stupid salesman.
+Dialogue: 179,0:00:59.30,0:00:59.44,Default,,0,0,0,,I'm just not a phone {\1c&HFF00&}with{\r} this stupid salesman.
+Dialogue: 180,0:00:59.44,0:00:59.56,Default,,0,0,0,,I'm just not a phone with {\1c&HFF00&}this{\r} stupid salesman.
+Dialogue: 181,0:00:59.56,0:01:0.20,Default,,0,0,0,,I'm just not a phone with this {\1c&HFF00&}stupid{\r} salesman.
+Dialogue: 182,0:01:0.20,0:01:0.78,Default,,0,0,0,,I'm just not a phone with this stupid {\1c&HFF00&}salesman.{\r}
+Dialogue: 183,0:01:0.94,0:01:1.12,Default,,0,0,0,,{\1c&HFF00&}He's{\r} so dumb.
+Dialogue: 184,0:01:1.12,0:01:1.30,Default,,0,0,0,,He's {\1c&HFF00&}so{\r} dumb.
+Dialogue: 185,0:01:1.30,0:01:1.64,Default,,0,0,0,,He's so {\1c&HFF00&}dumb.{\r}
+Dialogue: 186,0:01:2.56,0:01:2.80,Default,,0,0,0,,{\1c&HFF00&}Probably{\r} just going to keep him on the line forever, not by anything.
+Dialogue: 187,0:01:2.80,0:01:2.98,Default,,0,0,0,,Probably {\1c&HFF00&}just{\r} going to keep him on the line forever, not by anything.
+Dialogue: 188,0:01:2.98,0:01:3.10,Default,,0,0,0,,Probably just {\1c&HFF00&}going{\r} to keep him on the line forever, not by anything.
+Dialogue: 189,0:01:3.10,0:01:3.16,Default,,0,0,0,,Probably just going {\1c&HFF00&}to{\r} keep him on the line forever, not by anything.
+Dialogue: 190,0:01:3.16,0:01:3.32,Default,,0,0,0,,Probably just going to {\1c&HFF00&}keep{\r} him on the line forever, not by anything.
+Dialogue: 191,0:01:3.32,0:01:3.46,Default,,0,0,0,,Probably just going to keep {\1c&HFF00&}him{\r} on the line forever, not by anything.
+Dialogue: 192,0:01:3.46,0:01:3.56,Default,,0,0,0,,Probably just going to keep him {\1c&HFF00&}on{\r} the line forever, not by anything.
+Dialogue: 193,0:01:3.56,0:01:3.68,Default,,0,0,0,,Probably just going to keep him on {\1c&HFF00&}the{\r} line forever, not by anything.
+Dialogue: 194,0:01:3.68,0:01:3.92,Default,,0,0,0,,Probably just going to keep him on the {\1c&HFF00&}line{\r} forever, not by anything.
+Dialogue: 195,0:01:3.92,0:01:4.38,Default,,0,0,0,,Probably just going to keep him on the line {\1c&HFF00&}forever,{\r} not by anything.
+Dialogue: 196,0:01:4.38,0:01:4.62,Default,,0,0,0,,Probably just going to keep him on the line forever, not by anything.
+Dialogue: 197,0:01:4.62,0:01:4.74,Default,,0,0,0,,Probably just going to keep him on the line forever, {\1c&HFF00&}not{\r} by anything.
+Dialogue: 198,0:01:4.74,0:01:4.96,Default,,0,0,0,,Probably just going to keep him on the line forever, not {\1c&HFF00&}by{\r} anything.
+Dialogue: 199,0:01:4.96,0:01:5.24,Default,,0,0,0,,Probably just going to keep him on the line forever, not by {\1c&HFF00&}anything.{\r}
+Dialogue: 200,0:01:6.44,0:01:7.26,Default,,0,0,0,,{\1c&HFF00&}Okay.{\r}
+Dialogue: 201,0:01:7.78,0:01:8.02,Default,,0,0,0,,{\1c&HFF00&}It's{\r} up to you to change the mind.
+Dialogue: 202,0:01:8.02,0:01:8.10,Default,,0,0,0,,It's {\1c&HFF00&}up{\r} to you to change the mind.
+Dialogue: 203,0:01:8.10,0:01:8.22,Default,,0,0,0,,It's up {\1c&HFF00&}to{\r} you to change the mind.
+Dialogue: 204,0:01:8.22,0:01:8.30,Default,,0,0,0,,It's up to {\1c&HFF00&}you{\r} to change the mind.
+Dialogue: 205,0:01:8.30,0:01:8.38,Default,,0,0,0,,It's up to you {\1c&HFF00&}to{\r} change the mind.
+Dialogue: 206,0:01:8.38,0:01:8.54,Default,,0,0,0,,It's up to you to {\1c&HFF00&}change{\r} the mind.
+Dialogue: 207,0:01:8.54,0:01:8.74,Default,,0,0,0,,It's up to you to change {\1c&HFF00&}the{\r} mind.
+Dialogue: 208,0:01:8.74,0:01:8.84,Default,,0,0,0,,It's up to you to change the {\1c&HFF00&}mind.{\r}
+Dialogue: 209,0:01:9.52,0:01:9.92,Default,,0,0,0,,{\1c&HFF00&}Sorry.{\r}
+Dialogue: 210,0:01:10.26,0:01:10.34,Default,,0,0,0,,{\1c&HFF00&}That{\r} was a family emergency.
+Dialogue: 211,0:01:10.34,0:01:10.48,Default,,0,0,0,,That {\1c&HFF00&}was{\r} a family emergency.
+Dialogue: 212,0:01:10.48,0:01:10.64,Default,,0,0,0,,That was {\1c&HFF00&}a{\r} family emergency.
+Dialogue: 213,0:01:10.64,0:01:11.40,Default,,0,0,0,,That was a {\1c&HFF00&}family{\r} emergency.
+Dialogue: 214,0:01:11.40,0:01:11.76,Default,,0,0,0,,That was a family {\1c&HFF00&}emergency.{\r}
+Dialogue: 215,0:01:12.18,0:01:12.30,Default,,0,0,0,,{\1c&HFF00&}Oh{\r} no, what's wrong?
+Dialogue: 216,0:01:12.30,0:01:12.48,Default,,0,0,0,,Oh {\1c&HFF00&}no,{\r} what's wrong?
+Dialogue: 217,0:01:12.48,0:01:12.66,Default,,0,0,0,,Oh no, what's wrong?
+Dialogue: 218,0:01:12.66,0:01:12.88,Default,,0,0,0,,Oh no, {\1c&HFF00&}what's{\r} wrong?
+Dialogue: 219,0:01:12.88,0:01:13.04,Default,,0,0,0,,Oh no, what's {\1c&HFF00&}wrong?{\r}
+Dialogue: 220,0:01:13.36,0:01:13.46,Default,,0,0,0,,{\1c&HFF00&}You{\r} know what?
+Dialogue: 221,0:01:13.46,0:01:13.54,Default,,0,0,0,,You {\1c&HFF00&}know{\r} what?
+Dialogue: 222,0:01:13.54,0:01:13.72,Default,,0,0,0,,You know {\1c&HFF00&}what?{\r}
+Dialogue: 223,0:01:13.92,0:01:14.14,Default,,0,0,0,,{\1c&HFF00&}That's{\r} private.
+Dialogue: 224,0:01:14.14,0:01:14.40,Default,,0,0,0,,That's {\1c&HFF00&}private.{\r}
+Dialogue: 225,0:01:15.08,0:01:15.58,Default,,0,0,0,,{\1c&HFF00&}Boundary{\r} Dwight, come on.
+Dialogue: 226,0:01:15.58,0:01:16.08,Default,,0,0,0,,Boundary {\1c&HFF00&}Dwight,{\r} come on.
+Dialogue: 227,0:01:16.08,0:01:16.10,Default,,0,0,0,,Boundary Dwight, come on.
+Dialogue: 228,0:01:16.10,0:01:16.28,Default,,0,0,0,,Boundary Dwight, {\1c&HFF00&}come{\r} on.
+Dialogue: 229,0:01:16.28,0:01:16.46,Default,,0,0,0,,Boundary Dwight, come {\1c&HFF00&}on.{\r}
+Dialogue: 230,0:01:16.56,0:01:16.80,Default,,0,0,0,,{\1c&HFF00&}I'm{\r} sorry, Mr.
+Dialogue: 231,0:01:16.80,0:01:17.14,Default,,0,0,0,,I'm {\1c&HFF00&}sorry,{\r} Mr.
+Dialogue: 232,0:01:17.14,0:01:17.34,Default,,0,0,0,,I'm sorry, Mr.
+Dialogue: 233,0:01:17.34,0:01:17.50,Default,,0,0,0,,I'm sorry, {\1c&HFF00&}Mr.{\r}
+Dialogue: 234,0:01:17.60,0:01:17.92,Default,,0,0,0,,{\1c&HFF00&}Butlerker.{\r}
+Dialogue: 235,0:01:18.00,0:01:18.12,Default,,0,0,0,,{\1c&HFF00&}As{\r} I was saying,
+Dialogue: 236,0:01:18.12,0:01:18.20,Default,,0,0,0,,As {\1c&HFF00&}I{\r} was saying,
+Dialogue: 237,0:01:18.20,0:01:18.32,Default,,0,0,0,,As I {\1c&HFF00&}was{\r} saying,
+Dialogue: 238,0:01:18.32,0:01:18.58,Default,,0,0,0,,As I was {\1c&HFF00&}saying,{\r}
+Dialogue: 239,0:01:19.00,0:01:19.38,Default,,0,0,0,,{\1c&HFF00&}we{\r} are having a limited...
+Dialogue: 240,0:01:19.38,0:01:19.46,Default,,0,0,0,,we {\1c&HFF00&}are{\r} having a limited...
+Dialogue: 241,0:01:19.46,0:01:19.66,Default,,0,0,0,,we are {\1c&HFF00&}having{\r} a limited...
+Dialogue: 242,0:01:19.66,0:01:19.78,Default,,0,0,0,,we are having {\1c&HFF00&}a{\r} limited...
+Dialogue: 243,0:01:19.78,0:01:20.06,Default,,0,0,0,,we are having a {\1c&HFF00&}limited...{\r}
+Dialogue: 244,0:01:20.06,0:01:20.14,Default,,0,0,0,,{\1c&HFF00&}We're having a limited,{\r}
+Dialogue: 245,0:01:20.28,0:01:20.50,Default,,0,0,0,,{\1c&HFF00&}a little{\r} bit louder,
+Dialogue: 246,0:01:20.50,0:01:20.78,Default,,0,0,0,,a little {\1c&HFF00&}bit{\r} louder,
+Dialogue: 247,0:01:20.78,0:01:21.02,Default,,0,0,0,,a little bit {\1c&HFF00&}louder,{\r}
+Dialogue: 248,0:01:21.02,0:01:21.22,Default,,0,0,0,,{\1c&HFF00&}I'm{\r} heart-of-earing.
+Dialogue: 249,0:01:21.22,0:01:21.36,Default,,0,0,0,,I'm {\1c&HFF00&}heart{\r}-of-earing.
+Dialogue: 250,0:01:21.36,0:01:21.44,Default,,0,0,0,,I'm heart{\1c&HFF00&}-of{\r}-earing.
+Dialogue: 251,0:01:21.44,0:01:21.58,Default,,0,0,0,,I'm heart-of{\1c&HFF00&}-earing.{\r}
+Dialogue: 252,0:01:21.80,0:01:22.10,Default,,0,0,0,,{\1c&HFF00&}Sorry{\r} if he's an old man.
+Dialogue: 253,0:01:22.10,0:01:22.30,Default,,0,0,0,,Sorry {\1c&HFF00&}if{\r} he's an old man.
+Dialogue: 254,0:01:22.30,0:01:22.38,Default,,0,0,0,,Sorry if {\1c&HFF00&}he's{\r} an old man.
+Dialogue: 255,0:01:22.38,0:01:22.48,Default,,0,0,0,,Sorry if he's {\1c&HFF00&}an{\r} old man.
+Dialogue: 256,0:01:22.48,0:01:22.56,Default,,0,0,0,,Sorry if he's an {\1c&HFF00&}old{\r} man.
+Dialogue: 257,0:01:22.56,0:01:22.78,Default,,0,0,0,,Sorry if he's an old {\1c&HFF00&}man.{\r}
+Dialogue: 258,0:01:22.94,0:01:23.20,Default,,0,0,0,,{\1c&HFF00&}Okay.{\r}
+Dialogue: 259,0:01:23.48,0:01:23.56,Default,,0,0,0,,{\1c&HFF00&}As{\r} I was saying,
+Dialogue: 260,0:01:23.56,0:01:23.68,Default,,0,0,0,,As {\1c&HFF00&}I{\r} was saying,
+Dialogue: 261,0:01:23.68,0:01:23.80,Default,,0,0,0,,As I {\1c&HFF00&}was{\r} saying,
+Dialogue: 262,0:01:23.80,0:01:24.20,Default,,0,0,0,,As I was {\1c&HFF00&}saying,{\r}
+Dialogue: 263,0:01:24.38,0:01:24.54,Default,,0,0,0,,{\1c&HFF00&}right{\r} now we are having a louder.
+Dialogue: 264,0:01:24.54,0:01:24.86,Default,,0,0,0,,right {\1c&HFF00&}now{\r} we are having a louder.
+Dialogue: 265,0:01:24.86,0:01:25.12,Default,,0,0,0,,right now {\1c&HFF00&}we{\r} are having a louder.
+Dialogue: 266,0:01:25.12,0:01:25.20,Default,,0,0,0,,right now we {\1c&HFF00&}are{\r} having a louder.
+Dialogue: 267,0:01:25.20,0:01:25.36,Default,,0,0,0,,right now we are {\1c&HFF00&}having{\r} a louder.
+Dialogue: 268,0:01:25.36,0:01:25.54,Default,,0,0,0,,right now we are having {\1c&HFF00&}a{\r} louder.
+Dialogue: 269,0:01:25.54,0:01:25.72,Default,,0,0,0,,right now we are having a {\1c&HFF00&}louder.{\r}
+Dialogue: 270,0:01:26.04,0:01:26.16,Default,,0,0,0,,{\1c&HFF00&}Okay,{\r}
+Dialogue: 271,0:01:26.48,0:01:26.60,Default,,0,0,0,,{\1c&HFF00&}our{\r} prices have never been lower.
+Dialogue: 272,0:01:26.60,0:01:26.96,Default,,0,0,0,,our {\1c&HFF00&}prices{\r} have never been lower.
+Dialogue: 273,0:01:26.96,0:01:27.18,Default,,0,0,0,,our prices {\1c&HFF00&}have{\r} never been lower.
+Dialogue: 274,0:01:27.18,0:01:27.40,Default,,0,0,0,,our prices have {\1c&HFF00&}never{\r} been lower.
+Dialogue: 275,0:01:27.40,0:01:27.60,Default,,0,0,0,,our prices have never {\1c&HFF00&}been{\r} lower.
+Dialogue: 276,0:01:27.60,0:01:27.78,Default,,0,0,0,,our prices have never been {\1c&HFF00&}lower.{\r}
+Dialogue: 277,0:01:27.82,0:01:27.90,Default,,0,0,0,,{\1c&HFF00&}So{\r} you have to talk loud.
+Dialogue: 278,0:01:27.90,0:01:28.06,Default,,0,0,0,,So {\1c&HFF00&}you{\r} have to talk loud.
+Dialogue: 279,0:01:28.06,0:01:28.20,Default,,0,0,0,,So you {\1c&HFF00&}have{\r} to talk loud.
+Dialogue: 280,0:01:28.20,0:01:28.30,Default,,0,0,0,,So you have {\1c&HFF00&}to{\r} talk loud.
+Dialogue: 281,0:01:28.30,0:01:28.50,Default,,0,0,0,,So you have to {\1c&HFF00&}talk{\r} loud.
+Dialogue: 282,0:01:28.50,0:01:28.78,Default,,0,0,0,,So you have to talk {\1c&HFF00&}loud.{\r}
+Dialogue: 283,0:01:28.92,0:01:29.14,Default,,0,0,0,,{\1c&HFF00&}Never{\r} been lower.
+Dialogue: 284,0:01:29.14,0:01:29.50,Default,,0,0,0,,Never {\1c&HFF00&}been{\r} lower.
+Dialogue: 285,0:01:29.50,0:01:29.84,Default,,0,0,0,,Never been {\1c&HFF00&}lower.{\r}
+Dialogue: 286,0:01:30.02,0:01:30.42,Default,,0,0,0,,{\1c&HFF00&}Louder,{\r} son! Butneker! Our prices have never been lower! Stop! Heat!
+Dialogue: 287,0:01:30.42,0:01:30.60,Default,,0,0,0,,Louder, son! Butneker! Our prices have never been lower! Stop! Heat!
+Dialogue: 288,0:01:30.60,0:01:30.78,Default,,0,0,0,,Louder, {\1c&HFF00&}son!{\r} Butneker! Our prices have never been lower! Stop! Heat!
+Dialogue: 289,0:01:30.78,0:01:31.04,Default,,0,0,0,,Louder, son! Butneker! Our prices have never been lower! Stop! Heat!
+Dialogue: 290,0:01:31.04,0:01:31.54,Default,,0,0,0,,Louder, son! {\1c&HFF00&}Butneker!{\r} Our prices have never been lower! Stop! Heat!
+Dialogue: 291,0:01:31.54,0:01:31.86,Default,,0,0,0,,Louder, son! Butneker! Our prices have never been lower! Stop! Heat!
+Dialogue: 292,0:01:31.86,0:01:31.98,Default,,0,0,0,,Louder, son! Butneker! {\1c&HFF00&}Our{\r} prices have never been lower! Stop! Heat!
+Dialogue: 293,0:01:31.98,0:01:32.46,Default,,0,0,0,,Louder, son! Butneker! Our {\1c&HFF00&}prices{\r} have never been lower! Stop! Heat!
+Dialogue: 294,0:01:32.46,0:01:32.72,Default,,0,0,0,,Louder, son! Butneker! Our prices {\1c&HFF00&}have{\r} never been lower! Stop! Heat!
+Dialogue: 295,0:01:32.72,0:01:33.04,Default,,0,0,0,,Louder, son! Butneker! Our prices have {\1c&HFF00&}never{\r} been lower! Stop! Heat!
+Dialogue: 296,0:01:33.04,0:01:33.34,Default,,0,0,0,,Louder, son! Butneker! Our prices have never {\1c&HFF00&}been{\r} lower! Stop! Heat!
+Dialogue: 297,0:01:33.34,0:01:33.68,Default,,0,0,0,,Louder, son! Butneker! Our prices have never been {\1c&HFF00&}lower!{\r} Stop! Heat!
+Dialogue: 298,0:01:33.68,0:01:33.80,Default,,0,0,0,,Louder, son! Butneker! Our prices have never been lower! Stop! Heat!
+Dialogue: 299,0:01:33.80,0:01:34.16,Default,,0,0,0,,Louder, son! Butneker! Our prices have never been lower! {\1c&HFF00&}Stop!{\r} Heat!
+Dialogue: 300,0:01:34.16,0:01:34.32,Default,,0,0,0,,Louder, son! Butneker! Our prices have never been lower! Stop! Heat!
+Dialogue: 301,0:01:34.32,0:01:34.52,Default,,0,0,0,,Louder, son! Butneker! Our prices have never been lower! Stop! {\1c&HFF00&}Heat!{\r}
+Dialogue: 302,0:01:36.20,0:01:36.62,Default,,0,0,0,,{\1c&HFF00&}That{\r} is totally inappropriate.
+Dialogue: 303,0:01:36.62,0:01:36.76,Default,,0,0,0,,That {\1c&HFF00&}is{\r} totally inappropriate.
+Dialogue: 304,0:01:36.76,0:01:37.18,Default,,0,0,0,,That is {\1c&HFF00&}totally{\r} inappropriate.
+Dialogue: 305,0:01:37.18,0:01:37.74,Default,,0,0,0,,That is totally {\1c&HFF00&}inappropriate.{\r}
+Dialogue: 306,0:01:38.74,0:01:38.90,Default,,0,0,0,,{\1c&HFF00&}You're{\r} never guilty of the client.
+Dialogue: 307,0:01:38.90,0:01:39.18,Default,,0,0,0,,You're {\1c&HFF00&}never{\r} guilty of the client.
+Dialogue: 308,0:01:39.18,0:01:39.38,Default,,0,0,0,,You're never {\1c&HFF00&}guilty{\r} of the client.
+Dialogue: 309,0:01:39.38,0:01:39.92,Default,,0,0,0,,You're never guilty {\1c&HFF00&}of the client.{\r}
+Dialogue: 310,0:01:40.04,0:01:40.16,Default,,0,0,0,,{\1c&HFF00&}You're never guilty of the client.{\r}
+Dialogue: 311,0:01:40.16,0:01:40.32,Default,,0,0,0,,{\1c&HFF00&}Now{\r} you listen to me, sir.
+Dialogue: 312,0:01:40.32,0:01:40.42,Default,,0,0,0,,Now {\1c&HFF00&}you{\r} listen to me, sir.
+Dialogue: 313,0:01:40.42,0:01:40.72,Default,,0,0,0,,Now you {\1c&HFF00&}listen{\r} to me, sir.
+Dialogue: 314,0:01:40.72,0:01:40.96,Default,,0,0,0,,Now you listen {\1c&HFF00&}to{\r} me, sir.
+Dialogue: 315,0:01:40.96,0:01:41.16,Default,,0,0,0,,Now you listen to {\1c&HFF00&}me,{\r} sir.
+Dialogue: 316,0:01:41.16,0:01:41.22,Default,,0,0,0,,Now you listen to me, sir.
+Dialogue: 317,0:01:41.22,0:01:41.48,Default,,0,0,0,,Now you listen to me, {\1c&HFF00&}sir.{\r}
+Dialogue: 318,0:01:41.84,0:01:41.98,Default,,0,0,0,,{\1c&HFF00&}Here{\r} we go.
+Dialogue: 319,0:01:41.98,0:01:42.10,Default,,0,0,0,,Here {\1c&HFF00&}we{\r} go.
+Dialogue: 320,0:01:42.10,0:01:42.26,Default,,0,0,0,,Here we {\1c&HFF00&}go.{\r}
+Dialogue: 321,0:01:42.60,0:01:42.78,Default,,0,0,0,,{\1c&HFF00&}The{\r} three words I would describe you as is aggressive,
+Dialogue: 322,0:01:42.78,0:01:43.14,Default,,0,0,0,,The {\1c&HFF00&}three{\r} words I would describe you as is aggressive,
+Dialogue: 323,0:01:43.14,0:01:43.44,Default,,0,0,0,,The three {\1c&HFF00&}words{\r} I would describe you as is aggressive,
+Dialogue: 324,0:01:43.44,0:01:43.68,Default,,0,0,0,,The three words {\1c&HFF00&}I{\r} would describe you as is aggressive,
+Dialogue: 325,0:01:43.68,0:01:43.80,Default,,0,0,0,,The three words I {\1c&HFF00&}would{\r} describe you as is aggressive,
+Dialogue: 326,0:01:43.80,0:01:44.14,Default,,0,0,0,,The three words I would {\1c&HFF00&}describe{\r} you as is aggressive,
+Dialogue: 327,0:01:44.14,0:01:44.46,Default,,0,0,0,,The three words I would describe {\1c&HFF00&}you{\r} as is aggressive,
+Dialogue: 328,0:01:44.46,0:01:44.70,Default,,0,0,0,,The three words I would describe you {\1c&HFF00&}as{\r} is aggressive,
+Dialogue: 329,0:01:44.70,0:01:44.94,Default,,0,0,0,,The three words I would describe you as {\1c&HFF00&}is{\r} aggressive,
+Dialogue: 330,0:01:44.94,0:01:45.46,Default,,0,0,0,,The three words I would describe you as is {\1c&HFF00&}aggressive,{\r}
+Dialogue: 331,0:01:46.08,0:01:46.50,Default,,0,0,0,,{\1c&HFF00&}hostile,{\r}
+Dialogue: 332,0:01:46.90,0:01:47.42,Default,,0,0,0,,{\1c&HFF00&}and definitely{\r} difficult.
+Dialogue: 333,0:01:47.42,0:01:47.94,Default,,0,0,0,,and definitely {\1c&HFF00&}difficult.{\r}
+Dialogue: 334,0:01:48.16,0:01:48.24,Default,,0,0,0,,{\1c&HFF00&}Please{\r} Mr.
+Dialogue: 335,0:01:48.24,0:01:48.50,Default,,0,0,0,,Please {\1c&HFF00&}Mr.{\r}
+Dialogue: 336,0:01:48.66,0:01:48.74,Default,,0,0,0,,{\1c&HFF00&}Butler.{\r}
+Dialogue: 337,0:01:48.74,0:01:49.00,Default,,0,0,0,,{\1c&HFF00&}I'm{\r} my rate right now.
+Dialogue: 338,0:01:49.00,0:01:49.10,Default,,0,0,0,,I'm {\1c&HFF00&}my{\r} rate right now.
+Dialogue: 339,0:01:49.10,0:01:49.44,Default,,0,0,0,,I'm my {\1c&HFF00&}rate{\r} right now.
+Dialogue: 340,0:01:49.44,0:01:49.66,Default,,0,0,0,,I'm my rate {\1c&HFF00&}right{\r} now.
+Dialogue: 341,0:01:49.66,0:01:49.72,Default,,0,0,0,,I'm my rate right {\1c&HFF00&}now.{\r}
+Dialogue: 342,0:01:49.74,0:01:49.88,Default,,0,0,0,,{\1c&HFF00&}Give{\r} me the phone.
+Dialogue: 343,0:01:49.88,0:01:49.96,Default,,0,0,0,,Give {\1c&HFF00&}me{\r} the phone.
+Dialogue: 344,0:01:49.96,0:01:50.10,Default,,0,0,0,,Give me {\1c&HFF00&}the{\r} phone.
+Dialogue: 345,0:01:50.10,0:01:50.24,Default,,0,0,0,,Give me the {\1c&HFF00&}phone.{\r}
+Dialogue: 346,0:01:50.56,0:01:50.72,Default,,0,0,0,,{\1c&HFF00&}Give me{\r} another chance.
+Dialogue: 347,0:01:50.72,0:01:50.94,Default,,0,0,0,,Give me {\1c&HFF00&}another{\r} chance.
+Dialogue: 348,0:01:50.94,0:01:51.22,Default,,0,0,0,,Give me another {\1c&HFF00&}chance.{\r}
+Dialogue: 349,0:01:51.44,0:01:51.60,Default,,0,0,0,,{\1c&HFF00&}Give me{\r} the phone.
+Dialogue: 350,0:01:51.60,0:01:51.68,Default,,0,0,0,,Give me {\1c&HFF00&}the{\r} phone.
+Dialogue: 351,0:01:51.68,0:01:51.84,Default,,0,0,0,,Give me the {\1c&HFF00&}phone.{\r}
+Dialogue: 352,0:01:51.84,0:01:52.00,Default,,0,0,0,,{\1c&HFF00&}Mr.{\r}
+Dialogue: 353,0:01:52.16,0:01:52.52,Default,,0,0,0,,{\1c&HFF00&}Butlerker.{\r}
+Dialogue: 354,0:01:52.54,0:01:52.64,Default,,0,0,0,,{\1c&HFF00&}Give me{\r} the phone.
+Dialogue: 355,0:01:52.64,0:01:52.76,Default,,0,0,0,,Give me {\1c&HFF00&}the{\r} phone.
+Dialogue: 356,0:01:52.76,0:01:53.02,Default,,0,0,0,,Give me the {\1c&HFF00&}phone.{\r}
+Dialogue: 357,0:01:53.20,0:01:53.28,Default,,0,0,0,,{\1c&HFF00&}I{\r} have to put you on with my phone.
+Dialogue: 358,0:01:53.28,0:01:53.38,Default,,0,0,0,,I {\1c&HFF00&}have{\r} to put you on with my phone.
+Dialogue: 359,0:01:53.38,0:01:53.50,Default,,0,0,0,,I have {\1c&HFF00&}to{\r} put you on with my phone.
+Dialogue: 360,0:01:53.50,0:01:53.64,Default,,0,0,0,,I have to {\1c&HFF00&}put{\r} you on with my phone.
+Dialogue: 361,0:01:53.64,0:01:53.76,Default,,0,0,0,,I have to put {\1c&HFF00&}you{\r} on with my phone.
+Dialogue: 362,0:01:53.76,0:01:53.88,Default,,0,0,0,,I have to put you {\1c&HFF00&}on{\r} with my phone.
+Dialogue: 363,0:01:53.88,0:01:54.00,Default,,0,0,0,,I have to put you on {\1c&HFF00&}with{\r} my phone.
+Dialogue: 364,0:01:54.00,0:01:54.12,Default,,0,0,0,,I have to put you on with {\1c&HFF00&}my{\r} phone.
+Dialogue: 365,0:01:54.12,0:01:54.36,Default,,0,0,0,,I have to put you on with my {\1c&HFF00&}phone.{\r}
+Dialogue: 366,0:01:54.38,0:01:54.66,Default,,0,0,0,,{\1c&HFF00&}I'll{\r} flush it hope so.
+Dialogue: 367,0:01:54.66,0:01:54.68,Default,,0,0,0,,I'll {\1c&HFF00&}flush{\r} it hope so.
+Dialogue: 368,0:01:54.68,0:01:54.84,Default,,0,0,0,,I'll flush {\1c&HFF00&}it{\r} hope so.
+Dialogue: 369,0:01:54.84,0:01:54.98,Default,,0,0,0,,I'll flush it {\1c&HFF00&}hope{\r} so.
+Dialogue: 370,0:01:54.98,0:01:55.22,Default,,0,0,0,,I'll flush it hope {\1c&HFF00&}so.{\r}
+Dialogue: 371,0:01:55.80,0:01:56.10,Default,,0,0,0,,{\1c&HFF00&}Who{\r} is this?
+Dialogue: 372,0:01:56.10,0:01:56.24,Default,,0,0,0,,Who {\1c&HFF00&}is{\r} this?
+Dialogue: 373,0:01:56.24,0:01:56.38,Default,,0,0,0,,Who is {\1c&HFF00&}this?{\r}
+Dialogue: 374,0:01:56.50,0:01:56.72,Default,,0,0,0,,{\1c&HFF00&}Hello,{\r} this is Michael Scott, regional manager.
+Dialogue: 375,0:01:56.72,0:01:56.88,Default,,0,0,0,,Hello, this is Michael Scott, regional manager.
+Dialogue: 376,0:01:56.88,0:01:56.94,Default,,0,0,0,,Hello, {\1c&HFF00&}this{\r} is Michael Scott, regional manager.
+Dialogue: 377,0:01:56.94,0:01:57.12,Default,,0,0,0,,Hello, this {\1c&HFF00&}is{\r} Michael Scott, regional manager.
+Dialogue: 378,0:01:57.12,0:01:57.40,Default,,0,0,0,,Hello, this is {\1c&HFF00&}Michael{\r} Scott, regional manager.
+Dialogue: 379,0:01:57.40,0:01:57.74,Default,,0,0,0,,Hello, this is Michael {\1c&HFF00&}Scott,{\r} regional manager.
+Dialogue: 380,0:01:57.74,0:01:57.98,Default,,0,0,0,,Hello, this is Michael Scott, regional manager.
+Dialogue: 381,0:01:57.98,0:01:58.20,Default,,0,0,0,,Hello, this is Michael Scott, {\1c&HFF00&}regional{\r} manager.
+Dialogue: 382,0:01:58.20,0:01:58.60,Default,,0,0,0,,Hello, this is Michael Scott, regional {\1c&HFF00&}manager.{\r}
+Dialogue: 383,0:01:59.04,0:01:59.14,Default,,0,0,0,,{\1c&HFF00&}Well,{\r} this is William M.
+Dialogue: 384,0:01:59.14,0:01:59.24,Default,,0,0,0,,Well, this is William M.
+Dialogue: 385,0:01:59.24,0:01:59.30,Default,,0,0,0,,Well, {\1c&HFF00&}this{\r} is William M.
+Dialogue: 386,0:01:59.30,0:01:59.48,Default,,0,0,0,,Well, this {\1c&HFF00&}is{\r} William M.
+Dialogue: 387,0:01:59.48,0:01:59.86,Default,,0,0,0,,Well, this is {\1c&HFF00&}William{\r} M.
+Dialogue: 388,0:01:59.86,0:02:0.14,Default,,0,0,0,,Well, this is William {\1c&HFF00&}M.{\r}
+Dialogue: 389,0:02:0.46,0:02:0.86,Default,,0,0,0,,{\1c&HFF00&}Butlerker.{\r}
+Dialogue: 390,0:02:1.18,0:02:1.60,Default,,0,0,0,,{\1c&HFF00&}Hello, Mr.{\r}
+Dialogue: 391,0:02:1.78,0:02:2.16,Default,,0,0,0,,{\1c&HFF00&}Butlerker.{\r}
+Dialogue: 392,0:02:2.28,0:02:2.36,Default,,0,0,0,,{\1c&HFF00&}How{\r} may we help you?
+Dialogue: 393,0:02:2.36,0:02:2.52,Default,,0,0,0,,How {\1c&HFF00&}may{\r} we help you?
+Dialogue: 394,0:02:2.52,0:02:2.68,Default,,0,0,0,,How may {\1c&HFF00&}we{\r} help you?
+Dialogue: 395,0:02:2.68,0:02:2.86,Default,,0,0,0,,How may we {\1c&HFF00&}help{\r} you?
+Dialogue: 396,0:02:2.86,0:02:3.06,Default,,0,0,0,,How may we help {\1c&HFF00&}you?{\r}
+Dialogue: 397,0:02:3.88,0:02:4.20,Default,,0,0,0,,{\1c&HFF00&}Michael,{\r} I like the sound of your voice.
+Dialogue: 398,0:02:4.20,0:02:4.36,Default,,0,0,0,,Michael, {\1c&HFF00&}I{\r} like the sound of your voice.
+Dialogue: 399,0:02:4.36,0:02:4.48,Default,,0,0,0,,Michael, I {\1c&HFF00&}like{\r} the sound of your voice.
+Dialogue: 400,0:02:4.48,0:02:4.62,Default,,0,0,0,,Michael, I like {\1c&HFF00&}the{\r} sound of your voice.
+Dialogue: 401,0:02:4.62,0:02:4.78,Default,,0,0,0,,Michael, I like the {\1c&HFF00&}sound{\r} of your voice.
+Dialogue: 402,0:02:4.78,0:02:4.88,Default,,0,0,0,,Michael, I like the sound {\1c&HFF00&}of{\r} your voice.
+Dialogue: 403,0:02:4.88,0:02:4.96,Default,,0,0,0,,Michael, I like the sound of {\1c&HFF00&}your{\r} voice.
+Dialogue: 404,0:02:4.96,0:02:5.24,Default,,0,0,0,,Michael, I like the sound of your {\1c&HFF00&}voice.{\r}
+Dialogue: 405,0:02:5.64,0:02:5.70,Default,,0,0,0,,{\1c&HFF00&}You{\r} know what I'm gonna do?
+Dialogue: 406,0:02:5.70,0:02:5.76,Default,,0,0,0,,You {\1c&HFF00&}know{\r} what I'm gonna do?
+Dialogue: 407,0:02:5.76,0:02:5.80,Default,,0,0,0,,You know {\1c&HFF00&}what{\r} I'm gonna do?
+Dialogue: 408,0:02:5.80,0:02:5.86,Default,,0,0,0,,You know what {\1c&HFF00&}I'm{\r} gonna do?
+Dialogue: 409,0:02:5.86,0:02:5.96,Default,,0,0,0,,You know what I'm {\1c&HFF00&}gonna{\r} do?
+Dialogue: 410,0:02:5.96,0:02:6.16,Default,,0,0,0,,You know what I'm gonna {\1c&HFF00&}do?{\r}
+Dialogue: 411,0:02:6.66,0:02:6.74,Default,,0,0,0,,{\1c&HFF00&}I'm{\r} gonna buy one million dollars worth of paper products today.
+Dialogue: 412,0:02:6.74,0:02:6.80,Default,,0,0,0,,I'm {\1c&HFF00&}gonna{\r} buy one million dollars worth of paper products today.
+Dialogue: 413,0:02:6.80,0:02:6.96,Default,,0,0,0,,I'm gonna {\1c&HFF00&}buy{\r} one million dollars worth of paper products today.
+Dialogue: 414,0:02:6.96,0:02:7.22,Default,,0,0,0,,I'm gonna buy {\1c&HFF00&}one{\r} million dollars worth of paper products today.
+Dialogue: 415,0:02:7.22,0:02:7.44,Default,,0,0,0,,I'm gonna buy one {\1c&HFF00&}million{\r} dollars worth of paper products today.
+Dialogue: 416,0:02:7.44,0:02:7.74,Default,,0,0,0,,I'm gonna buy one million {\1c&HFF00&}dollars{\r} worth of paper products today.
+Dialogue: 417,0:02:7.74,0:02:7.92,Default,,0,0,0,,I'm gonna buy one million dollars {\1c&HFF00&}worth{\r} of paper products today.
+Dialogue: 418,0:02:7.92,0:02:8.00,Default,,0,0,0,,I'm gonna buy one million dollars worth {\1c&HFF00&}of{\r} paper products today.
+Dialogue: 419,0:02:8.00,0:02:8.22,Default,,0,0,0,,I'm gonna buy one million dollars worth of {\1c&HFF00&}paper{\r} products today.
+Dialogue: 420,0:02:8.22,0:02:8.56,Default,,0,0,0,,I'm gonna buy one million dollars worth of paper {\1c&HFF00&}products{\r} today.
+Dialogue: 421,0:02:8.56,0:02:8.86,Default,,0,0,0,,I'm gonna buy one million dollars worth of paper products {\1c&HFF00&}today.{\r}
+Dialogue: 422,0:02:10.06,0:02:10.68,Default,,0,0,0,,{\1c&HFF00&}Yeah!{\r} Yeah! Thanks, Tom.
+Dialogue: 423,0:02:10.68,0:02:11.10,Default,,0,0,0,,Yeah! Yeah! Thanks, Tom.
+Dialogue: 424,0:02:11.10,0:02:11.52,Default,,0,0,0,,Yeah! {\1c&HFF00&}Yeah!{\r} Thanks, Tom.
+Dialogue: 425,0:02:11.52,0:02:11.68,Default,,0,0,0,,Yeah! Yeah! Thanks, Tom.
+Dialogue: 426,0:02:11.68,0:02:11.82,Default,,0,0,0,,Yeah! Yeah! {\1c&HFF00&}Thanks, Tom.{\r}
+Dialogue: 427,0:02:12.04,0:02:12.58,Default,,0,0,0,,{\1c&HFF00&}Thank{\r} you very much, sir.
+Dialogue: 428,0:02:12.58,0:02:12.70,Default,,0,0,0,,Thank {\1c&HFF00&}you{\r} very much, sir.
+Dialogue: 429,0:02:12.70,0:02:12.86,Default,,0,0,0,,Thank you {\1c&HFF00&}very{\r} much, sir.
+Dialogue: 430,0:02:12.86,0:02:13.18,Default,,0,0,0,,Thank you very {\1c&HFF00&}much,{\r} sir.
+Dialogue: 431,0:02:13.18,0:02:13.28,Default,,0,0,0,,Thank you very much, sir.
+Dialogue: 432,0:02:13.28,0:02:13.48,Default,,0,0,0,,Thank you very much, {\1c&HFF00&}sir.{\r}
+Dialogue: 433,0:02:13.86,0:02:13.98,Default,,0,0,0,,{\1c&HFF00&}I{\r} don't think you'll regret it.
+Dialogue: 434,0:02:13.98,0:02:14.34,Default,,0,0,0,,I {\1c&HFF00&}don't{\r} think you'll regret it.
+Dialogue: 435,0:02:14.34,0:02:14.52,Default,,0,0,0,,I don't {\1c&HFF00&}think{\r} you'll regret it.
+Dialogue: 436,0:02:14.52,0:02:14.74,Default,,0,0,0,,I don't think {\1c&HFF00&}you'll{\r} regret it.
+Dialogue: 437,0:02:14.74,0:02:14.96,Default,,0,0,0,,I don't think you'll {\1c&HFF00&}regret{\r} it.
+Dialogue: 438,0:02:14.96,0:02:15.14,Default,,0,0,0,,I don't think you'll regret {\1c&HFF00&}it.{\r}
+Dialogue: 439,0:02:15.30,0:02:15.40,Default,,0,0,0,,{\1c&HFF00&}You{\r} know what I did?
+Dialogue: 440,0:02:15.40,0:02:15.46,Default,,0,0,0,,You {\1c&HFF00&}know{\r} what I did?
+Dialogue: 441,0:02:15.46,0:02:15.52,Default,,0,0,0,,You know {\1c&HFF00&}what{\r} I did?
+Dialogue: 442,0:02:15.52,0:02:15.56,Default,,0,0,0,,You know what {\1c&HFF00&}I{\r} did?
+Dialogue: 443,0:02:15.56,0:02:15.62,Default,,0,0,0,,You know what I {\1c&HFF00&}did?{\r}
+Dialogue: 444,0:02:15.70,0:02:15.88,Default,,0,0,0,,{\1c&HFF00&}You{\r} are the master.
+Dialogue: 445,0:02:15.88,0:02:15.98,Default,,0,0,0,,You {\1c&HFF00&}are{\r} the master.
+Dialogue: 446,0:02:15.98,0:02:16.10,Default,,0,0,0,,You are {\1c&HFF00&}the{\r} master.
+Dialogue: 447,0:02:16.10,0:02:16.32,Default,,0,0,0,,You are the {\1c&HFF00&}master.{\r}
+Dialogue: 448,0:02:16.54,0:02:16.64,Default,,0,0,0,,{\1c&HFF00&}There{\r} is one condition,
+Dialogue: 449,0:02:16.64,0:02:16.78,Default,,0,0,0,,There {\1c&HFF00&}is{\r} one condition,
+Dialogue: 450,0:02:16.78,0:02:16.96,Default,,0,0,0,,There is {\1c&HFF00&}one{\r} condition,
+Dialogue: 451,0:02:16.96,0:02:17.24,Default,,0,0,0,,There is one {\1c&HFF00&}condition,{\r}
+Dialogue: 452,0:02:17.38,0:02:17.58,Default,,0,0,0,,{\1c&HFF00&}Michael.{\r}
+Dialogue: 453,0:02:17.78,0:02:17.90,Default,,0,0,0,,{\1c&HFF00&}Yes.{\r}
+Dialogue: 454,0:02:18.12,0:02:18.24,Default,,0,0,0,,{\1c&HFF00&}You{\r} have to fire the salesman that treated me so terribly.
+Dialogue: 455,0:02:18.24,0:02:18.34,Default,,0,0,0,,You {\1c&HFF00&}have{\r} to fire the salesman that treated me so terribly.
+Dialogue: 456,0:02:18.34,0:02:18.48,Default,,0,0,0,,You have {\1c&HFF00&}to{\r} fire the salesman that treated me so terribly.
+Dialogue: 457,0:02:18.48,0:02:18.88,Default,,0,0,0,,You have to {\1c&HFF00&}fire{\r} the salesman that treated me so terribly.
+Dialogue: 458,0:02:18.88,0:02:19.12,Default,,0,0,0,,You have to fire {\1c&HFF00&}the{\r} salesman that treated me so terribly.
+Dialogue: 459,0:02:19.12,0:02:19.46,Default,,0,0,0,,You have to fire the {\1c&HFF00&}salesman{\r} that treated me so terribly.
+Dialogue: 460,0:02:19.46,0:02:19.66,Default,,0,0,0,,You have to fire the salesman {\1c&HFF00&}that{\r} treated me so terribly.
+Dialogue: 461,0:02:19.66,0:02:19.84,Default,,0,0,0,,You have to fire the salesman that {\1c&HFF00&}treated{\r} me so terribly.
+Dialogue: 462,0:02:19.84,0:02:20.04,Default,,0,0,0,,You have to fire the salesman that treated {\1c&HFF00&}me{\r} so terribly.
+Dialogue: 463,0:02:20.04,0:02:20.22,Default,,0,0,0,,You have to fire the salesman that treated me {\1c&HFF00&}so{\r} terribly.
+Dialogue: 464,0:02:20.22,0:02:20.52,Default,,0,0,0,,You have to fire the salesman that treated me so {\1c&HFF00&}terribly.{\r}
+Dialogue: 465,0:02:20.74,0:02:20.86,Default,,0,0,0,,{\1c&HFF00&}Don't{\r} do it, Michael.
+Dialogue: 466,0:02:20.86,0:02:20.96,Default,,0,0,0,,Don't {\1c&HFF00&}do{\r} it, Michael.
+Dialogue: 467,0:02:20.96,0:02:21.04,Default,,0,0,0,,Don't do {\1c&HFF00&}it,{\r} Michael.
+Dialogue: 468,0:02:21.04,0:02:21.30,Default,,0,0,0,,Don't do it, {\1c&HFF00&}Michael.{\r}
+Dialogue: 469,0:02:22.18,0:02:23.44,Default,,0,0,0,,{\1c&HFF00&}It's{\r} a million dollars, Alan. Thank you.
+Dialogue: 470,0:02:23.44,0:02:23.52,Default,,0,0,0,,It's {\1c&HFF00&}a{\r} million dollars, Alan. Thank you.
+Dialogue: 471,0:02:23.52,0:02:23.66,Default,,0,0,0,,It's a {\1c&HFF00&}million{\r} dollars, Alan. Thank you.
+Dialogue: 472,0:02:23.66,0:02:24.04,Default,,0,0,0,,It's a million {\1c&HFF00&}dollars,{\r} Alan. Thank you.
+Dialogue: 473,0:02:24.04,0:02:24.22,Default,,0,0,0,,It's a million dollars, Alan. Thank you.
+Dialogue: 474,0:02:24.22,0:02:24.38,Default,,0,0,0,,It's a million dollars, {\1c&HFF00&}Alan. Thank you.{\r}
