@@ -1,13 +1,17 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'fileupload/style.css' %}">
+
 <html>
 
     <head>
         <meta charset="UTF-8">
-        <title>Upload Videos</title>
+        <title>Video Uploader</title>
     </head>
 
     <body>
 
-        <h1>Video Uploader</h1>
+        <h1>Sentiment<span>Sub</span></h1>
 
         <form enctype="multipart/form-data" method="POST" action="">
             {% csrf_token %}
