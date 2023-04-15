@@ -24,7 +24,6 @@ def extract_feature(file_name, mfcc, chroma, mel):
             result=np.hstack((result, mel))
     return result
 
-
 emotions={
   'a':'angry',
   'd':'disgust',
