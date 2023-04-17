@@ -19,12 +19,12 @@ def showvideo(request):
     # When the user presses the upload button, this goes into effect
     if request.method == 'POST' and 'upload' in request.POST:
         colors = {'fear': '#A020F0', 'joy': '#FFFF00', 'anger':'#FF0000', 'sadness':'#0000FF', 'love':'#00FF00'}
-        classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
+        # classifier = pipeline("text-classification",model='bhadresh-savani/distilbert-base-uncased-emotion')
+        classifier = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base", return_all_scores=True)
 
         # Get the last video in database
         lastvideo = Video.objects.last()
         videofile = lastvideo.videofile
-        print(videofile)
 
         input_filename = str(videofile).split('/')[-1]
         input_file_path = os.path.join(settings.MEDIA_ROOT, 'videos', input_filename)
@@ -36,6 +36,10 @@ def showvideo(request):
         model = stable_whisper.load_model('base')
         result = model.transcribe(input_file_path, fp16=False)
         result.to_srt_vtt(srt_filepath, word_level=False)
+
+
+
+
 
         # Read and classify each line of dialogue
         with open(srt_filepath, 'r') as f:
