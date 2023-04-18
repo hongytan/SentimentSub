@@ -1,4 +1,6 @@
 # SentimentSub
 
-Using emotion sentiment analysis to color code captions generated from user inputted audio transcribed with Whisper.
+Combining predictions of audio and text sentiment models to generate color coded subtitles for user given MP4 files.   
+
+sentimentsub.com
 
